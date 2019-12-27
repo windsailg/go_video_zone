@@ -131,7 +131,7 @@ $cgo_graduate_link_minor_fadeAlmond:#eeb58f;
          max-width: 1300px;
          background-color:#fff;;
          box-shadow: 0 0 70px rgba(0, 0, 0, 0.2);
-         border-radius: 8px;
+         border-radius: 5px;
          align-items: flex-start;
          padding: 10px 0px 50px;
          @include MCW(1301px){
@@ -232,6 +232,13 @@ $cgo_graduate_link_minor_fadeAlmond:#eeb58f;
             max-height: 20px;
             font-weight: bold;
             line-height: 15px;;
+         }
+         .deco{
+            @include ib;
+            padding: 5px;
+            width: 8px;
+            height: 8px;
+            background-color: #ff0000;
          }
       }
       &.type_mob{
