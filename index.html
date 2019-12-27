@@ -9,7 +9,7 @@
     <title>影音專區</title>
 <link rel="icon" href="https://www.tkbgo.com.tw/tkbgo/images/favicon.png">
 
-<!-- Golbal CSS (config)-->
+<!-- Golbal -->
 <link rel="stylesheet" href="css/go-header.css">
 <link rel="stylesheet" href="css/go-header-v2.css">
 <link rel="stylesheet" href="css/style.css">
@@ -18,7 +18,14 @@
 <link rel="stylesheet" href="css/go-responsive.css">   
 
 
-  <!-- Golbal CDNS CSS (config)-->
+  <!-- Only Videozone -->
+  <link rel="stylesheet" href="css/video_zone/video-style.css">
+
+  <!-- Only ThisPage  -->
+  <link rel="stylesheet" href="css/video_zone/video-index.css">
+
+
+  <!-- Golbal CDNS  -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/css/swiper.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli|Source+Sans+Pro">
   <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
@@ -26,13 +33,6 @@
     integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
   <link rel="stylesheet" href="css/focuspoint.css">
 
-
-  <!-- Only ThisPAge -->
-  <link rel="stylesheet" href="css/video_zone/vidwo-style.css">
-
-
-  <!-- CDNS Only ThisPage  -->
-  <link rel="stylesheet" href="css/video_zone/video-index.css">
 
 
 </head>
@@ -42,7 +42,7 @@
 <div class="header"></div>
 
     
-<div id="examList" >
+<div id="videoZone" >
   
 <div class="nav_mask"></div>
 
@@ -109,7 +109,16 @@
           </div> -->
 
         </div>
-
+        
+        <form class="video__search__block">
+          <div class="search__box">
+            <input type="text" class="search__submiter inputer">
+            <div class="search__submiter">
+              <i class="fas fa-search"></i>
+              影片搜尋
+            </div>
+          </div>
+        </form>
 
     </div>
   </div>

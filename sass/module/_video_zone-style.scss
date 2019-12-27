@@ -79,6 +79,7 @@ $cgo_graduate_link_minor_fadeAlmond:#eeb58f;
       }
    }
 }
+
 .area{
    @include ibl;
    width: 100%;
@@ -131,7 +132,7 @@ $cgo_graduate_link_minor_fadeAlmond:#eeb58f;
          max-width: 1300px;
          background-color:#fff;;
          box-shadow: 0 0 70px rgba(0, 0, 0, 0.2);
-         border-radius: 5px;
+         border-radius: 4px;
          align-items: flex-start;
          padding: 10px 0px 50px;
          @include MCW(1301px){
@@ -141,27 +142,53 @@ $cgo_graduate_link_minor_fadeAlmond:#eeb58f;
       }
    }
 }
-#examList .el-container{
+
+#videoZone .el-container {
    @include clean;
    height: 100%;
    position: relative;
    // overflow: hidden;
 }
 
-#examList{
-   font-family: 'Century Gothic','Source Sans Pro' , 'Muli'  ,'cwTeXYen','微軟正黑體','Arial', '新細明體';
+#videoZone {
+   font-family: 'Century Gothic','Source Sans Pro' , 'Muli' ,'微軟正黑體','Arial', '新細明體';
    //Top Menu
-
 
    .subject_block{
       @include fxfs;
-      width:100%;
+      width:400px;
       float: left;
       padding: 0 15px;
       @include MCW(601px) {
          padding: 0 0px;
       }
    }
+   .video__search__block {
+      @include fxc;
+      width: 100%;
+      max-width: 500px;
+      
+      .search__box {
+         @include fxc;
+         padding: 35px 0;
+      }
+
+      .search__submiter {
+         @include ibl;
+         border-top-left-radius: 5px;
+         border-bottom-left-radius: 5px;
+         width: 100%;
+         min-width: 400px;
+      }
+
+      .search__submiter{
+         @include fxc;
+         float: left;
+         width: 100%;
+         min-width: 100px;
+      }
+   }
+
    .subject_conainer{
       @include fxfs;
       float: left;
@@ -235,9 +262,13 @@ $cgo_graduate_link_minor_fadeAlmond:#eeb58f;
          }
          .deco{
             @include ib;
-            padding: 5px;
-            width: 8px;
-            height: 8px;
+            border-radius: 50px;
+            position: relative;
+            top: 0px ;
+            margin:  0 0 0 3px;
+            padding: 4px;
+            // width: 8px;
+            // height: 8px;
             background-color: #ff0000;
          }
       }
@@ -392,6 +423,7 @@ $cgo_graduate_link_minor_fadeAlmond:#eeb58f;
       @include MCW(1301px){
          max-width: unset;
       }
+
       > .info_container{
          @include fxc;
          > .news{
@@ -600,7 +632,10 @@ $cgo_graduate_link_minor_fadeAlmond:#eeb58f;
             }
          }
       }
+
    }
+
+
 
    .main_content_block{
       @include fxc;
@@ -634,7 +669,7 @@ $cgo_graduate_link_minor_fadeAlmond:#eeb58f;
       }
       
    }
-   //推薦文章區塊
+
    .recommend_pager_block{
       @include fxc;
       width: 100%;
@@ -794,7 +829,6 @@ $cgo_graduate_link_minor_fadeAlmond:#eeb58f;
       
    }
 
-
    .pager_block{
       @include fxc;
       width: 100%;
@@ -830,6 +864,7 @@ $cgo_graduate_link_minor_fadeAlmond:#eeb58f;
          }
       }
    }
+
    .more_block{
       @include fxc;
       padding: 10px ;
@@ -841,10 +876,8 @@ $cgo_graduate_link_minor_fadeAlmond:#eeb58f;
       @include hover;
    }
 
-
-
-
 }
+
 ul{
    list-style-type: none;
    padding:0;
@@ -858,12 +891,14 @@ ul{
    border-width: 0 0 1px 0;
    border-color: #ccc;
 }
+
 .lazy{
    @include bg-loading;
    background-color: #fff;
    background-image: url("images/graduate-loading.svg");
    min-height: 100%;
 }
+
 .lazied{
    max-height: unset;
    background-image: unset;
@@ -876,6 +911,7 @@ img{
    width: auto;
    margin: 0 auto;
 }
+
 .img_box{
    text-align: center;
       img{
@@ -928,7 +964,6 @@ img{
    }
 }
 
-
 // oldStyles
 .rev_img {
     display: block;
@@ -950,4 +985,30 @@ img{
    @include ibl;
    width:100%;
    margin:-80px 0 80px 0; 
+}
+
+
+
+.inputer {
+   @include PlaceHolder-Style(rgb(145, 145, 145), .9);
+   @include tst;
+   @include ib;
+   text-decoration: none;
+   max-width: 100%;
+   padding: 8px 15px;
+   border-width: 1px;
+   border-style: solid;
+   border-color: #888;
+   outline: none;
+   font-size: 16px;
+   letter-spacing: 1px;
+
+   @include MCW(801px) {
+      margin: 8px auto;
+   }
+
+   &:focus {
+      border-color: $cgo_orange;
+      box-shadow: 0px 0px 10px #f29001;
+   }
 }
