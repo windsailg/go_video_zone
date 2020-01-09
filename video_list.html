@@ -61,10 +61,10 @@
           <div id="SubjectListMajor" class="subject_conainer">
             <div class="swiper-wrapper">
               
-              <a href="#" id="SubjectNavTrigger" class="item subject_item openable swiper-slide thispage">
+              <div href="#" id="SubjectNavTrigger" class="item subject_item openable swiper-slide thispage">
                 <i class="fas fa-film"></i>
                 <span class="name">影片</span>
-              </a>
+              </div>
               
               <a href="https://www.tkbgo.com.tw/article/teacher/toArticle.jsp?article_id=575" class="item subject_item swiper-slide">
                 <i class="far fa-calendar-alt"></i>
@@ -340,14 +340,25 @@
   <div class="area type_cover">
     <div class="container type_cover">
 
-        <div class="container">
+        <div class="container type__floater">
           
-        
+          <div class="sorter__block">
+            <div class="sorter__title">共篩選30個結果</div>
+            <div class="soter__box">
+              <div class="sorter__name">排序</div>
+              <select class="sorter selecter">
+                <option>新到舊</option>
+                <option>舊到新</option>
+                <option>最熱門</option>
+              </select>
+            </div>
+
+          </div>
           <div class="imagine__block">
 
             <a href="#" class="imagine__box">
               <div class="imagine img_box">
-                <img class="" src="img/video_zone_img/video_img01.jpg" />
+                <img class="lazy" data-src="img/video_zone_img/video_img01.jpg" />
               </div>
               <div class="block__title">
                 【國營聯招】 牧翰老師考前獨家 經濟學重點解題
@@ -366,7 +377,7 @@
 
             <a href="#" class="imagine__box">
               <div class="imagine img_box">
-                <img class="" src="img/video_zone_img/video_img02.jpg" />
+                <img class="lazy" data-src="img/video_zone_img/video_img02.jpg" />
               </div>
               <div class="block__title">
                 【國營聯招】 牧翰老師考前獨家 經濟學重點解題
@@ -385,7 +396,7 @@
 
             <a href="#" class="imagine__box">
               <div class="imagine img_box">
-                <img class="" src="img/video_zone_img/video_img03.jpg" />
+                <img class="lazy" data-src="img/video_zone_img/video_img03.jpg" />
               </div>
               <div class="block__title">
                 【國營聯招】 牧翰老師考前獨家 經濟學重點解題
@@ -401,6 +412,70 @@
                 </div>
               </div>
             </a>
+
+            <a href="#" class="imagine__box">
+              <div class="imagine img_box">
+                <img class="lazy" data-src="img/video_zone_img/video_img01.jpg" />
+              </div>
+              <div class="block__title">
+                【國營聯招】 牧翰老師考前獨家 經濟學重點解題
+              </div>
+              <div class="info__box">
+                <div class="info__element info__viewed">
+                  <i class="fas fa-eye"></i>
+                  1,230
+                </div>
+                <div class="info__element info__date">
+                  <i class="far fa-clock"></i>
+                  2020-12-19
+                </div>
+              </div>
+            </a>
+            
+            <a href="#" class="imagine__box">
+              <div class="imagine img_box">
+                <img class="lazy" data-src="img/video_zone_img/video_img02.jpg" />
+              </div>
+              <div class="block__title">
+                【國營聯招】 牧翰老師考前獨家 經濟學重點解題
+              </div>
+              <div class="info__box">
+                <div class="info__element info__viewed">
+                  <i class="fas fa-eye"></i>
+                  1,230
+                </div>
+                <div class="info__element info__date">
+                  <i class="far fa-clock"></i>
+                  2020-12-19
+                </div>
+              </div>
+            </a>
+            
+            <a href="#" class="imagine__box">
+              <div class="imagine img_box">
+                <img class="lazy" data-src="img/video_zone_img/video_img03.jpg" />
+              </div>
+              <div class="block__title">
+                【國營聯招】 牧翰老師考前獨家 經濟學重點解題
+              </div>
+              <div class="info__box">
+                <div class="info__element info__viewed">
+                  <i class="fas fa-eye"></i>
+                  1,230
+                </div>
+                <div class="info__element info__date">
+                  <i class="far fa-clock"></i>
+                  2020-12-19
+                </div>
+              </div>
+            </a>
+
+            <div class="more__btn">
+              顯示全部
+              <i class="fas fa-angle-down"></i>
+              
+            </div>
+
 
           </div>
 
@@ -435,7 +510,7 @@
 
 
   <!-- OnlyThisPage JS -->
-  <script src="js/university_zone/university.js"></script>
+  <script src="js/video_zone/video_zone-common.js"></script>
 
 
 

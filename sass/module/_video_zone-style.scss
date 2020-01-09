@@ -87,8 +87,8 @@ $cgo_graduate_link_minor_fadeAlmond:#eeb58f;
    &.type_nav{
       @include fxc;
       align-items: flex-start;
-      position: absolute;
-      margin-top:-42px;
+      position: relative;
+      // margin-top:100px;
       width: 100%;
       height: 100%;
       z-index:10;
@@ -122,12 +122,15 @@ $cgo_graduate_link_minor_fadeAlmond:#eeb58f;
       }
       &.type_nav{
          @include fxc;
+         position: absolute;
+         margin-top: -42px;
          align-items: flex-start;
          overflow: visible;;
          min-height: 400px;
          max-width: unset;
          padding: 0;
          height: 100%;
+
       }
       &.type_cover{
          @include fxb;
@@ -142,6 +145,10 @@ $cgo_graduate_link_minor_fadeAlmond:#eeb58f;
             flex-direction: column-reverse;
             padding: 0px 10px 0px;
          }
+      }
+      &.type__floater{
+         @include fxc;
+         padding: 20px;
       }
    }
 }
@@ -465,7 +472,7 @@ $cgo_graduate_link_minor_fadeAlmond:#eeb58f;
          box-sizing: border-box;
          position:absolute;
          width: 100%;
-         min-height:100%;
+         min-height:100vh;
          background-color:#000;
          opacity: .7;
          z-index: 0;
@@ -474,33 +481,80 @@ $cgo_graduate_link_minor_fadeAlmond:#eeb58f;
       }
    }
 
+   .sorter__block{
+      @include fxfe;
+      width: 100%;
+      padding: 4px 0;
+      // font-weight: bold;
+      color: #999999;
+      font-size: 1.2em;
+      
+      .sorter__title{
+         letter-spacing: 2px;
+      }
+      
+      .sorter__name{
+         letter-spacing: 2px;
+         margin:  0 0 0 0;;
+      }
+      .soter__box{
+         @include fxb;
+         align-items: center;
+         color: #777777;
+         width: auto;
+         // max-width: 150px;
+         margin: 0 0 0 20px;
+      }
+
+      .sorter{
+         font-size: .9em;
+         border: 0px solid transparent;;
+         outline: none;
+         margin: 6px 20px 10px 0;
+         // padding:  0px 0 5px;
+         @include fxc;
+         option{
+            
+         }
+      }
+   }
    .imagine__block{
-      @include ibl;
+      @include fxc;
+      width: auto;
+      
       .imagine__box{
          @include fxc;
-
+         @include hover;
          float: left;
          width: 100%;
          max-width:400px;
 
          padding: 20px ;
          .imagine{
-            
+            @include fxc;
+            width: 100%;
+            max-width: 400px;
+            height: 250px;
+            max-height: 200px;
+            overflow: hidden;
+            background-position: center;
+            background-size: 30%;
+            background-repeat: no-repeat;
+            background-image: url(../../img/video_zone_img/loading_ring.svg);
+
          }
          .block__title {
             font-size: 1.2em;
             font-weight: bold;
-
+            margin: 10px 0 0 0;
          }
-
          .info__box {
             @include fxfe;
             width: 100%;
          }
-
          .info__element {
             width: auto;
-            padding: 3px 0 3px 6px;
+            padding: 3px 0 3px 20px;
          }
 
          .info__viewed {
@@ -514,8 +568,30 @@ $cgo_graduate_link_minor_fadeAlmond:#eeb58f;
                color: #6c9911;
             }
          }
+
       }
 
+      .more__btn {
+         @include fxc;
+         width: 100%;
+
+         background-color: #eeeeee;
+         border-radius: 5px;
+
+         background-color: #ddd;
+         text-align: center;
+         padding: 8px;
+         margin: 20px 10px;
+
+         color: #999999;
+         font-weight: bold;
+         @include hover;
+         user-select: none;
+         i{
+            padding:  0 0 0 10px;
+         }
+
+      }
    }
 
 
@@ -1235,7 +1311,17 @@ img{
    }
 }
 
+.selecter {
+   @include ibl;
+   margin: 10px 20px 10px 0;
+   padding: 6px;
+   border: 1px solid #aaa;
 
+   min-height: 32px;
+   letter-spacing: 2px;
+   color: #333;
+   background-color: #fff;
+}
 
 .inputer {
    @include PlaceHolder-Style(rgb(145, 145, 145), .9);

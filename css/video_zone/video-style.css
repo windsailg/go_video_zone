@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @import url(https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
-.bread_crumb_block .bread_crumb, .area.type_nav, .area.type_cover, .area .container.type_nav, .area .container.type_cover, #videoZone .subject_block, #videoZone .video__search__block, #videoZone .video__search__block .search__submiter, #videoZone .subject_conainer, #videoZone .subject_conainer .subject_item, #videoZone .subject_conainer.type_mob .subject_item, #videoZone .subject_conainer.type_fixed, #videoZone .subject_conainer.type_fixed .subject_item, #videoZone .subject_nav, #videoZone .subject_nav .subject_nav_container, #videoZone .imagine__block .imagine__box, #videoZone .imagine__block .imagine__box .info__box, #videoZone .side_info_block, #videoZone .side_info_block > .info_container, #videoZone .side_info_block > .info_container > .news, #videoZone .side_info_block > .info_container > .news > .list, #videoZone .side_info_block > .info_container > .news > .list > .item, #videoZone .side_info_block > .info_container > .news > .list > .item a, #videoZone .side_info_block > .info_container > .services, #videoZone .side_info_block > .info_container > .services > .list, #videoZone .side_info_block > .info_container > .services > .list > .item, #videoZone .side_info_block > .info_container > .services > .list > .item a, #videoZone .side_info_block > .info_container > .services > .list > .item .icon, #videoZone .side_info_block > .info_container > .services > .list > .item .title_box, #videoZone .side_info_block > .info_container > .services > .list > .item .arrow, #videoZone .side_info_block > .info_container > .links > .list > .item a, #videoZone .main_content_block, #videoZone .main_content_block .title_block, #videoZone .recommend_pager_block, #videoZone .recommend_pager_block .pager, #videoZone .recommend_pager_block .pager.type_pagination, #videoZone .recommend_pager_block .pager.type_pagination > .item > a, #videoZone .recommend_article_block, #videoZone .pager_block, #videoZone .more_block, .checker, .checker .checkmark {
+.bread_crumb_block .bread_crumb, .area.type_nav, .area.type_cover, .area .container.type_nav, .area .container.type_cover, .area .container.type__floater, #videoZone .subject_block, #videoZone .video__search__block, #videoZone .video__search__block .search__submiter, #videoZone .subject_conainer, #videoZone .subject_conainer .subject_item, #videoZone .subject_conainer.type_mob .subject_item, #videoZone .subject_conainer.type_fixed, #videoZone .subject_conainer.type_fixed .subject_item, #videoZone .subject_nav, #videoZone .subject_nav .subject_nav_container, #videoZone .sorter__block, #videoZone .sorter__block .soter__box, #videoZone .sorter__block .sorter, #videoZone .imagine__block, #videoZone .imagine__block .imagine__box, #videoZone .imagine__block .imagine__box .imagine, #videoZone .imagine__block .imagine__box .info__box, #videoZone .imagine__block .more__btn, #videoZone .side_info_block, #videoZone .side_info_block > .info_container, #videoZone .side_info_block > .info_container > .news, #videoZone .side_info_block > .info_container > .news > .list, #videoZone .side_info_block > .info_container > .news > .list > .item, #videoZone .side_info_block > .info_container > .news > .list > .item a, #videoZone .side_info_block > .info_container > .services, #videoZone .side_info_block > .info_container > .services > .list, #videoZone .side_info_block > .info_container > .services > .list > .item, #videoZone .side_info_block > .info_container > .services > .list > .item a, #videoZone .side_info_block > .info_container > .services > .list > .item .icon, #videoZone .side_info_block > .info_container > .services > .list > .item .title_box, #videoZone .side_info_block > .info_container > .services > .list > .item .arrow, #videoZone .side_info_block > .info_container > .links > .list > .item a, #videoZone .main_content_block, #videoZone .main_content_block .title_block, #videoZone .recommend_pager_block, #videoZone .recommend_pager_block .pager, #videoZone .recommend_pager_block .pager.type_pagination, #videoZone .recommend_pager_block .pager.type_pagination > .item > a, #videoZone .recommend_article_block, #videoZone .pager_block, #videoZone .more_block, .checker, .checker .checkmark {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -132,8 +132,7 @@
   -webkit-align-items: flex-start;
       -ms-flex-align: start;
           align-items: flex-start;
-  position: absolute;
-  margin-top: -42px;
+  position: relative;
   width: 100%;
   height: 100%;
   z-index: 10;
@@ -186,6 +185,8 @@
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
+  position: absolute;
+  margin-top: -42px;
   -webkit-box-align: start;
   -webkit-align-items: flex-start;
       -ms-flex-align: start;
@@ -224,6 +225,14 @@
             flex-direction: column-reverse;
     padding: 0px 10px 0px;
   }
+}
+
+.area .container.type__floater {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px;
 }
 
 #videoZone .el-container {
@@ -716,7 +725,7 @@
   box-sizing: border-box;
   position: absolute;
   width: 100%;
-  min-height: 100%;
+  min-height: 100vh;
   background-color: #000;
   opacity: .7;
   z-index: 0;
@@ -724,11 +733,57 @@
   cursor: pointer;
 }
 
+#videoZone .sorter__block {
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 100%;
+  padding: 4px 0;
+  color: #999999;
+  font-size: 1.2em;
+}
+
+#videoZone .sorter__block .sorter__title {
+  letter-spacing: 2px;
+}
+
+#videoZone .sorter__block .sorter__name {
+  letter-spacing: 2px;
+  margin: 0 0 0 0;
+}
+
+#videoZone .sorter__block .soter__box {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #777777;
+  width: auto;
+  margin: 0 0 0 20px;
+}
+
+#videoZone .sorter__block .sorter {
+  font-size: .9em;
+  border: 0px solid transparent;
+  outline: none;
+  margin: 6px 20px 10px 0;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 #videoZone .imagine__block {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  display: inline-block;
-  float: left;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: auto;
 }
 
 #videoZone .imagine__block .imagine__box {
@@ -736,15 +791,43 @@
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-transition: 0.2s all ease-out;
+  -o-transition: 0.2s all ease-out;
+  transition: 0.2s all ease-out;
+  cursor: pointer;
   float: left;
   width: 100%;
   max-width: 400px;
   padding: 20px;
 }
 
+#videoZone .imagine__block .imagine__box:hover {
+  opacity: .8;
+  -webkit-transition-duration: .1s;
+       -o-transition-duration: .1s;
+          transition-duration: .1s;
+}
+
+#videoZone .imagine__block .imagine__box .imagine {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  max-width: 400px;
+  height: 250px;
+  max-height: 200px;
+  overflow: hidden;
+  background-position: center;
+  background-size: 30%;
+  background-repeat: no-repeat;
+  background-image: url(../../img/video_zone_img/loading_ring.svg);
+}
+
 #videoZone .imagine__block .imagine__box .block__title {
   font-size: 1.2em;
   font-weight: bold;
+  margin: 10px 0 0 0;
 }
 
 #videoZone .imagine__block .imagine__box .info__box {
@@ -757,7 +840,7 @@
 
 #videoZone .imagine__block .imagine__box .info__element {
   width: auto;
-  padding: 3px 0 3px 6px;
+  padding: 3px 0 3px 20px;
 }
 
 #videoZone .imagine__block .imagine__box .info__viewed i {
@@ -766,6 +849,41 @@
 
 #videoZone .imagine__block .imagine__box .info__date i {
   color: #6c9911;
+}
+
+#videoZone .imagine__block .more__btn {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  background-color: #eeeeee;
+  border-radius: 5px;
+  background-color: #ddd;
+  text-align: center;
+  padding: 8px;
+  margin: 20px 10px;
+  color: #999999;
+  font-weight: bold;
+  -webkit-transition: 0.2s all ease-out;
+  -o-transition: 0.2s all ease-out;
+  transition: 0.2s all ease-out;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+#videoZone .imagine__block .more__btn:hover {
+  opacity: .8;
+  -webkit-transition-duration: .1s;
+       -o-transition-duration: .1s;
+          transition-duration: .1s;
+}
+
+#videoZone .imagine__block .more__btn i {
+  padding: 0 0 0 10px;
 }
 
 #videoZone .side_info_block {
@@ -1794,6 +1912,20 @@ img {
   -webkit-transform: rotate(0deg);
       -ms-transform: rotate(0deg);
           transform: rotate(0deg);
+}
+
+.selecter {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: inline-block;
+  float: left;
+  margin: 10px 20px 10px 0;
+  padding: 6px;
+  border: 1px solid #aaa;
+  min-height: 32px;
+  letter-spacing: 2px;
+  color: #333;
+  background-color: #fff;
 }
 
 .inputer {
