@@ -101,7 +101,7 @@ $cgo_graduate_link_minor_fadeAlmond:#eeb58f;
    &.type_cover{
       @include fxc;
       width: 100%;
-      top:-42px;
+      margin:-42px 0 42px;
       position: relative;
       z-index: 1;
       overflow: visible;
@@ -116,9 +116,9 @@ $cgo_graduate_link_minor_fadeAlmond:#eeb58f;
       width: 100%;
       max-width: 1300px;
       padding: 10px 10px 50px;
-      @include MCW(1171px) {
+      @include MCW(1301px) {
          width: 100%;
-         padding: 0px 0px 0px;
+         // padding: 0px 0px 0px;
       }
       &.type_nav{
          @include fxc;
@@ -149,6 +149,9 @@ $cgo_graduate_link_minor_fadeAlmond:#eeb58f;
       &.type__floater{
          @include fxc;
          padding: 20px;
+         @include MCW(781px) {
+            padding: 8px;
+         }
       }
    }
 }
@@ -168,16 +171,25 @@ $cgo_graduate_link_minor_fadeAlmond:#eeb58f;
       width:400px;
       float: left;
       padding: 0 15px;
+      @include MCW(861px) {
+         display: none;
+      }
       @include MCW(601px) {
          padding: 0 0px;
       }
    }
    .video__search__block {
       @include fxc;
+      flex-wrap: nowrap;
       float: left;
       width: 100%;
+      height: 110px;
       max-width: calc(100% - 420px);
-      padding: 35px 0;
+      // padding: 35px 0;
+
+      @include MCW(1301px) {
+         // padding: 35px 0;
+      }
       @include MCW(860px) {
          max-width: 100%;
       }
@@ -200,8 +212,9 @@ $cgo_graduate_link_minor_fadeAlmond:#eeb58f;
          border-top-right-radius: 5px;
          border-bottom-right-radius: 5px;
          float: left;
-         width: 100%;
+         width: auto;
          max-width: 120px;
+         padding:0  16px  0 18px;
          height: 35px;
          background-color:#1F4101;
          cursor: pointer;
@@ -210,6 +223,11 @@ $cgo_graduate_link_minor_fadeAlmond:#eeb58f;
          i{
             font-size: 1em;
             padding: 0  6px 0 0 ;
+         }
+      }
+      .search__submite__name{
+         @include MCW(801px) {
+            display: none;;
          }
       }
    }
@@ -252,6 +270,9 @@ $cgo_graduate_link_minor_fadeAlmond:#eeb58f;
                border-width: 8px 6px 6px 6px;
                border-color:#fff transparent transparent transparent;
             }
+            &.unclickable{
+               pointer-events: none;;
+            }
          }
          &.openable.active{
             &:after{
@@ -262,7 +283,7 @@ $cgo_graduate_link_minor_fadeAlmond:#eeb58f;
          }
          &.thispage{
             box-shadow: 8px 8px 8px rgba(36, 36, 36, 0.384);
-            background-color:$cgo_orange_fader;
+            background:#f29001;
          }
          &:hover{
             background:$cgo_orange_fader; 
@@ -389,10 +410,11 @@ $cgo_graduate_link_minor_fadeAlmond:#eeb58f;
             max-width: 460px;
             padding: 40px ;
             position: relative;
-            min-height: 300px;
+            min-height: 280px;
             @include MCW(1301px) {
                max-width: 160px;
                padding: 20px 5px 5px;
+               min-height: unset;
             }
 
             > .title{
@@ -472,7 +494,7 @@ $cgo_graduate_link_minor_fadeAlmond:#eeb58f;
          box-sizing: border-box;
          position:absolute;
          width: 100%;
-         min-height:100vh;
+         min-height:calc(100vh + 60px);
          background-color:#000;
          opacity: .7;
          z-index: 0;
@@ -528,8 +550,11 @@ $cgo_graduate_link_minor_fadeAlmond:#eeb58f;
          float: left;
          width: 100%;
          max-width:400px;
-
          padding: 20px ;
+         @include MCW(861px) {
+            padding: 8px;
+            max-width:50%;
+         }
          .imagine{
             @include fxc;
             width: 100%;
@@ -541,20 +566,30 @@ $cgo_graduate_link_minor_fadeAlmond:#eeb58f;
             background-size: 30%;
             background-repeat: no-repeat;
             background-image: url(../../img/video_zone_img/loading_ring.svg);
-
+            @include MCW(861px){
+               height: unset;
+               max-height: unset;
+            }
          }
          .block__title {
             font-size: 1.2em;
             font-weight: bold;
             margin: 10px 0 0 0;
+            @include MCW(861px) {
+               font-size: .9em;
+            }
          }
          .info__box {
             @include fxfe;
             width: 100%;
          }
          .info__element {
+
             width: auto;
             padding: 3px 0 3px 20px;
+            @include MCW(861px) {
+               font-size: .8em;
+            }
          }
 
          .info__viewed {
