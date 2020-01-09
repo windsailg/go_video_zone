@@ -267,7 +267,7 @@ html {
   display: inline-block;
   float: left;
   letter-spacing: 10px;
-  font-size: 26px;
+  font-size: 1.4em;
   padding: 25px 0 25px 25px;
   margin: 0;
   position: relative;
@@ -297,7 +297,7 @@ html {
   display: inline-block;
   float: left;
   width: 100%;
-  font-size: 20px;
+  font-size: 1em;
   letter-spacing: 0;
   font-weight: unset;
 }
@@ -347,7 +347,7 @@ html {
   text-align: center;
   width: 100%;
   margin: 0 0 18px 0;
-  font-size: calc(20px + 0.5vw);
+  font-size: calc(1.2em + 0.5vw);
   color: #666;
 }
 
@@ -487,7 +487,7 @@ html {
   padding: 16px 10px;
   border-radius: 4px;
   max-width: 100%;
-  font-size: 19px;
+  font-size: 1em;
   text-align: center;
   -webkit-transition: 0.2s all ease-out;
   -o-transition: 0.2s all ease-out;
@@ -585,7 +585,7 @@ html {
 }
 
 #videoZone .info_block > .box .info_block_title {
-  font-size: 23px;
+  font-size: 1.4em;
   letter-spacing: 10px;
   font-weight: 600;
   color: #585858;
@@ -636,7 +636,7 @@ html {
   color: #f29001;
   margin: 0 6px 0 0;
   position: relative;
-  font-size: 16px;
+  font-size: .9em;
 }
 
 #videoZone .info_block > .box a .info_block_content .info_title .info_title_major i {
@@ -679,7 +679,7 @@ html {
   display: block;
   float: left;
   margin: 8px  0;
-  font-size: 16px;
+  font-size: .9em;
   overflow: hidden;
   line-height: 20px;
   height: 40px;
@@ -741,7 +741,7 @@ html {
   -o-text-overflow: ellipsis;
      text-overflow: ellipsis;
   max-height: 40px;
-  font-size: 17px;
+  font-size: 1em;
   color: #444;
   font-weight: bold;
   letter-spacing: unset;
@@ -750,7 +750,7 @@ html {
 
 #videoZone .info_block > .box .article_block_list .article_box .item .content {
   color: #222;
-  font-size: 16px;
+  font-size: .9em;
   max-height: 45px;
   overflow: hidden;
 }
@@ -768,12 +768,12 @@ html {
   display: inline-block;
   float: left;
   width: 100%;
-  font-size: 19px;
+  font-size: 1em;
   padding: 20px;
 }
 
 #videoZone .recommend__article__block .recommend__article__highlight {
-  font-size: 21px;
+  font-size: 1em;
   font-weight: bold;
   color: #4b4b4b;
   padding: 2px;
@@ -845,7 +845,7 @@ html {
   background-color: #f6c65a;
   color: #fff;
   text-align: center;
-  font-size: 23px;
+  font-size: 1em;
   -webkit-transition: .2s all ease-in;
   -o-transition: .2s all ease-in;
   transition: .2s all ease-in;
@@ -1163,7 +1163,7 @@ html {
   width: 100%;
   padding: 12px 14px 0px;
   float: left;
-  font-size: 20px;
+  font-size: 1em;
   letter-spacing: 0;
   font-weight: bold;
   color: #444;
@@ -1296,7 +1296,7 @@ html {
           box-sizing: border-box;
   display: inline-block;
   float: left;
-  font-size: 21px;
+  font-size: 1em;
   width: 100%;
   max-width: 550px;
   color: #777;
@@ -1736,7 +1736,7 @@ html {
   float: left;
   width: 100%;
   font-weight: 600;
-  font-size: 50px;
+  font-size: 2em;
   color: #303030;
   letter-spacing: 20px;
   margin: 30px auto;
@@ -1762,7 +1762,7 @@ html {
   float: left;
   width: 100%;
   color: #0f0f0f;
-  font-size: 18px;
+  font-size: 1em;
   height: 150px;
   overflow: hidden;
   letter-spacing: 2px;
@@ -2144,7 +2144,7 @@ html {
   float: left;
   width: 100%;
   letter-spacing: -1px;
-  font-size: 22px;
+  font-size: 1em;
   text-align: center;
 }
 
@@ -2263,7 +2263,7 @@ html {
   margin: 10px  0;
   border-collapse: collapse;
   border-color: #fdcd5e;
-  font-size: 20px;
+  font-size: 1em;
   color: #303d5e;
 }
 

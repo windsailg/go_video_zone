@@ -35,13 +35,13 @@ $cgo_graduate_link_minor_fadeAlmond:#eeb58f;
       padding: 0;
       .bread_crumb_item{
          @include ibl;
-         font-size: 16px;
+         font-size: .9em;
          margin: 0;
          padding:  0 10px 0 0px;
          .home{
             @include ibl;
             padding: 0px 10px 0 0;
-            font-size: 16px;
+            font-size: 1em;
             color: rgb(63, 63, 63);
          }
          .arrow{
@@ -88,14 +88,14 @@ $cgo_graduate_link_minor_fadeAlmond:#eeb58f;
       @include fxc;
       align-items: flex-start;
       position: absolute;
-      top:185px;
+      margin-top:-42px;
       width: 100%;
       height: 100%;
       z-index:10;
       overflow: visible;
       pointer-events: none;
       @include MCW(601px) {
-         top:200px;
+         margin-top:-42px;
       }
    }
    &.type_cover{
@@ -105,6 +105,9 @@ $cgo_graduate_link_minor_fadeAlmond:#eeb58f;
       position: relative;
       z-index: 1;
       overflow: visible;
+   }
+   &.type__video__zone {
+      background-color: #408000;
    }
    .container{
       @include b;
@@ -153,7 +156,6 @@ $cgo_graduate_link_minor_fadeAlmond:#eeb58f;
 #videoZone {
    font-family: 'Century Gothic','Source Sans Pro' , 'Muli' ,'微軟正黑體','Arial', '新細明體';
    //Top Menu
-
    .subject_block{
       @include fxfs;
       width:400px;
@@ -165,27 +167,43 @@ $cgo_graduate_link_minor_fadeAlmond:#eeb58f;
    }
    .video__search__block {
       @include fxc;
+      float: left;
       width: 100%;
-      max-width: 500px;
-      
-      .search__box {
-         @include fxc;
-         padding: 35px 0;
+      max-width: calc(100% - 420px);
+      padding: 35px 0;
+      @include MCW(860px) {
+         max-width: 100%;
       }
-
-      .search__submiter {
+      .search__inputer {
          @include ibl;
          border-top-left-radius: 5px;
          border-bottom-left-radius: 5px;
          width: 100%;
-         min-width: 400px;
+         max-width: 300px;
+         &::placeholder{
+            font-size: 1em;
+         }
+         @include MCW(801px) {
+            margin: 8px 0;
+         }
       }
 
       .search__submiter{
          @include fxc;
+         border-top-right-radius: 5px;
+         border-bottom-right-radius: 5px;
          float: left;
          width: 100%;
-         min-width: 100px;
+         max-width: 120px;
+         height: 35px;
+         background-color:#1F4101;
+         cursor: pointer;
+         font-size: .9em;
+         color: #ffffff;
+         i{
+            font-size: 1em;
+            padding: 0  6px 0 0 ;
+         }
       }
    }
 
@@ -254,7 +272,7 @@ $cgo_graduate_link_minor_fadeAlmond:#eeb58f;
             @include ibl;
             width:100%;
             text-align: center;
-            font-size:15px;;
+            font-size:.9em;;
             margin: 0;
             max-height: 20px;
             font-weight: bold;
@@ -292,7 +310,7 @@ $cgo_graduate_link_minor_fadeAlmond:#eeb58f;
          }
             i{
                @include ibl;
-               font-size: 18px;
+               font-size: 1em;
                width: 20px;
                max-height: unset;
                padding:0;
@@ -301,7 +319,7 @@ $cgo_graduate_link_minor_fadeAlmond:#eeb58f;
                @include ibl;
                width:calc(100% - 30px);
                text-align: center;
-               font-size:17px;;
+               font-size:1em;;
                margin: 0;
                max-height: 22px;
                letter-spacing: -1px;
@@ -339,7 +357,7 @@ $cgo_graduate_link_minor_fadeAlmond:#eeb58f;
       }
       }
    }
-   
+
    .subject_nav{
       @include fxc;
       align-items: flex-start;
@@ -358,18 +376,31 @@ $cgo_graduate_link_minor_fadeAlmond:#eeb58f;
          position:relative;
          z-index: 1;
          .subject_list_box{
-            @include fxb;
-            width: 300px;
-            padding: 35px ;
+            @include ibl;
+            align-items: flex-start;
+            width: 100%;
+            max-width: 460px;
+            padding: 40px ;
+            position: relative;
+            min-height: 300px;
+            @include MCW(1301px) {
+               max-width: 160px;
+               padding: 20px 5px 5px;
+            }
+
             > .title{
                @include ibl;
                width:100%;
-               font-size: 20px;
+               font-size: 1.2em;
                font-weight: bold;
                color:#666;
+               @include MCW(1301px) {
+                  font-size: 1em;
+               }
+
             }
             > .list{
-               @include fxb;
+               @include ibl;
                width: 100%;
                list-style:none;
                margin:0;
@@ -377,15 +408,44 @@ $cgo_graduate_link_minor_fadeAlmond:#eeb58f;
                > .item{
                   @include ibl;
                   width:100%;
-                  max-width:110px;
+                  max-width:180px;
                   padding:4px  6px 4px 0;
-                  font-size:18px;;
+                  font-size: .9em;
+                  @include MCW(1301px) {
+                     padding:1px 1px 1px 0;
+                     .text{
+                        font-size: .7em;
+                     }
+                  }
                }
                a{
                   @include hover;
                }
             }
+
+            &::after{
+               content: '';
+               @include ibl;
+               position: absolute;
+               right: 2px;
+               height: 100%;
+               max-height: 200px;
+               width: 1px;
+               background-color: #cccccc;
+            }
+            &:nth-child(3)::after {
+               display: none;
+            }
+            @include MCW(1380px) {
+               &::after {
+                  display: none;
+               }
+            }
+            @include MCW(781px) {
+               padding: 20 5px;
+            }
          }
+
          .close_btn{
             @include ibl;
             width:100%;
@@ -414,6 +474,54 @@ $cgo_graduate_link_minor_fadeAlmond:#eeb58f;
       }
    }
 
+   .imagine__block{
+      @include ibl;
+      .imagine__box{
+         @include fxc;
+
+         float: left;
+         width: 100%;
+         max-width:400px;
+
+         padding: 20px ;
+         .imagine{
+            
+         }
+         .block__title {
+            font-size: 1.2em;
+            font-weight: bold;
+
+         }
+
+         .info__box {
+            @include fxfe;
+            width: 100%;
+         }
+
+         .info__element {
+            width: auto;
+            padding: 3px 0 3px 6px;
+         }
+
+         .info__viewed {
+            i {
+               color: #6c9911;
+            }
+         }
+
+         .info__date {
+            i {
+               color: #6c9911;
+            }
+         }
+      }
+
+   }
+
+
+
+
+   //未決
    .side_info_block{
       @include fxc;
       width: 100%;
@@ -542,7 +650,7 @@ $cgo_graduate_link_minor_fadeAlmond:#eeb58f;
                      }
                      > .title{
                         color:$cgo_textBlue;
-                        font-size: 17px;
+                        font-size: 1em;
                      }
                      > .subtitle{
                         font-size: 13px;
@@ -615,7 +723,7 @@ $cgo_graduate_link_minor_fadeAlmond:#eeb58f;
                      }
                   }
                   .title{
-                     font-size: 18px;
+                     font-size: 1em;
                      letter-spacing: 0;
 
                   }
@@ -630,12 +738,12 @@ $cgo_graduate_link_minor_fadeAlmond:#eeb58f;
                margin: 0;
                padding: 0;
             }
+
+
          }
       }
 
    }
-
-
 
    .main_content_block{
       @include fxc;
@@ -660,7 +768,7 @@ $cgo_graduate_link_minor_fadeAlmond:#eeb58f;
          > .back_btn{
             @include ibl;
             border:1px solid #ccc;
-            font-size: 16px;
+            font-size: 1em;
             padding: 3px 9px;
             border-radius: 4px;
             letter-spacing: 1px;
@@ -723,7 +831,7 @@ $cgo_graduate_link_minor_fadeAlmond:#eeb58f;
                   > .title{
                      @include nowrap;
                      width: 100%;
-                     font-size: 17px;
+                     font-size: 1em;
                      color:#222;
                      @include MCW(650px){
                      }
@@ -816,7 +924,7 @@ $cgo_graduate_link_minor_fadeAlmond:#eeb58f;
          padding:0 0 0 30px;;
          > .item{
             box-sizing: border-box;
-            font-size: 18px;
+            font-size: 1em;
             padding:4px 0 ;;
             color:#000;;
             width: 100%;
@@ -849,7 +957,7 @@ $cgo_graduate_link_minor_fadeAlmond:#eeb58f;
          }
          .pager_number{
             @include ibl;
-            font-size: 16px;
+            font-size: 1em;
             padding: 12px 15px;
             margin: 5px;
             text-align: center;
@@ -872,7 +980,7 @@ $cgo_graduate_link_minor_fadeAlmond:#eeb58f;
       width: 100%;
       text-align: center;
       border: 1px solid #666;
-      font-size: 19px;
+      font-size: .8em;
       @include hover;
    }
 
@@ -987,6 +1095,146 @@ img{
    margin:-80px 0 80px 0; 
 }
 
+.checker {
+   @include fxfs;
+   align-items: center;
+   position: relative;
+   width: 100%;
+   font-size: 16px;
+   cursor: pointer;
+   user-select: none;
+   background-color: transparent;
+   overflow: hidden;
+   cursor: pointer;
+   @include tst;
+   &:hover{
+      opacity: .8;
+   }
+   .text {
+      width: auto;
+      position: relative;
+      z-index: 1;
+      font-size: .9em;
+      line-height: 24px;
+
+      @include MCW(500px) {
+         width: calc(100% - 30px);
+      }
+   }
+
+   input {
+      position: absolute;
+      opacity: 0;
+      cursor: pointer;
+
+      &:checked {
+         &~.checkmark {
+            background-color: #f19100;
+            border-color: transparent;
+            ;
+            @include tst;
+         }
+
+         &~.checkmark:after {
+            display: block;
+         }
+      }
+   }
+
+   .checkmark {
+      @include fxc;
+      position: relative;
+      height: 18px;
+      width: 19px;
+      margin: 0 6px 0 0;
+      border-width: 1px;
+      border-color: rgb(187, 187, 187);
+      ;
+      border-style: solid;
+
+      &:after {
+         font-family: FontAwesome;
+         content: "";
+         position: absolute;
+         display: none;
+         @include arl;
+         top: 0px;
+         width: 4px;
+         height: 10px;
+         border: solid white;
+         border-width: 0 3px 3px 0;
+         transform: rotate(45deg);
+      }
+   }
+
+   &.type_box {
+      @include ib;
+      width: auto;
+      padding: 6px 13px;
+      margin: 7px 18px 7px 0;
+      background-color: #ddd;
+      border-radius: 3px;
+
+      input {
+         &:checked {
+            &~.checkbg {
+               background-color: #f19100;
+               @include tst;
+            }
+
+            &~.text {
+               color: #fff;
+               padding: 0 0px 0 10px;
+            }
+
+            &~.checkmark:after {
+               display: block;
+            }
+         }
+      }
+
+      .text {
+         padding: 0 10px;
+      }
+
+      .checkbg {
+         @include ibl;
+         position: absolute;
+         @include aa;
+         height: 100%;
+         width: 100%;
+      }
+
+      .checkmark {
+         @include aa;
+         position: relative;
+         height: 100%;
+         width: 100%;
+         border: 0px solid transparent;
+
+         &:after {
+            @include atb;
+            content: '\f00c';
+            position: relative;
+
+            float: left;
+            display: none;
+            color: #fff;
+            font-size: 16px;
+
+            top: 1px;
+            width: 10px;
+            height: 14px;
+
+            padding: 2px 0;
+
+            border: 0 solid transparent;
+            transform: rotate(0deg);
+         }
+      }
+   }
+}
+
 
 
 .inputer {
@@ -1000,9 +1248,8 @@ img{
    border-style: solid;
    border-color: #888;
    outline: none;
-   font-size: 16px;
-   letter-spacing: 1px;
-
+   font-size: .9em;
+   letter-spacing:.5px;
    @include MCW(801px) {
       margin: 8px auto;
    }

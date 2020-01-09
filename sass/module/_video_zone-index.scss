@@ -78,7 +78,7 @@ $cgo_fadeGreen:#6e9b41;
       @content;
    }
 }
-@mixin block_title_font_style($size_block_title:23px){
+@mixin block_title_font_style($size_block_title:1.4em){
    font-size: $size_block_title;
    letter-spacing: $title_spacing;;
    font-weight: 600;
@@ -253,7 +253,7 @@ html{
       .title_block{
          @include ibl;
          letter-spacing: $title_spacing;
-         font-size: 26px;
+         font-size: 1.4em;
          padding:  25px 0 25px 25px;
          margin: 0;
          position: relative;
@@ -272,7 +272,7 @@ html{
          .subtitle{
             @include ibl;
             width: 100%;
-            font-size: 20px;
+            font-size: 1em;
             letter-spacing: 0;
             font-weight: unset;
          }
@@ -315,7 +315,7 @@ html{
          text-align: center;
          width: 100%;
          margin: 0 0 18px 0;
-         font-size:calc(20px + 0.5vw);
+         font-size:calc(1.2em + 0.5vw);
          color:#666;;
       }
 
@@ -416,7 +416,7 @@ html{
                padding:16px 10px;
                border-radius: 4px;
                max-width:100%;
-               font-size: 19px;
+               font-size: 1em;
                text-align: center;
                @include hover;
             }
@@ -515,7 +515,7 @@ html{
                         color:$cgo_orange;
                         margin: 0 6px 0 0;
                         position: relative;
-                        font-size: 16px;
+                        font-size: .9em;
 
                         i{
                            margin: 0 8px 0 0;
@@ -548,7 +548,7 @@ html{
                      @include block;
                      float: left;
                      margin: 8px  0 ;
-                     font-size: 16px;
+                     font-size: .9em;
                      overflow: hidden;
                      line-height: 20px;
                      height: 40px;
@@ -584,7 +584,7 @@ html{
                      @include fxfs;
                      .title{
                         @include nowrap;
-                        font-size:17px;;
+                        font-size:1em;;
                         color:#444;
                         font-weight:bold;
                         letter-spacing: unset;
@@ -592,7 +592,7 @@ html{
                      }
                      .content{
                         color:#222;
-                        font-size:16px;
+                        font-size:.9em;
                         max-height: 45px;
                         overflow: hidden;
                      }
@@ -611,11 +611,11 @@ html{
          .recommend__article__content__box{
             @include ibl;
             width: 100%;
-            font-size: 19px;
+            font-size: 1em;
             padding: 20px ;
          }
          .recommend__article__highlight{
-            font-size: 21px;
+            font-size: 1em;
             font-weight: bold;
             color: #4b4b4b;
             padding: 2px;
@@ -665,7 +665,7 @@ html{
                            background-color:$cgo_orange_fader;
                            color: #fff;
                            text-align:center;
-                           font-size: 23px;
+                           font-size: 1em;
                            @include transition;
                            cursor: pointer;
                            &:nth-child(even){
@@ -879,7 +879,7 @@ html{
                         width: 100%;
                         padding: 12px 14px 0px;
                         float: left;
-                        font-size: 20px;
+                        font-size: 1em;
                         letter-spacing: 0;
                         font-weight: bold;
                         color: $color_trigger_Y_title;
@@ -978,7 +978,7 @@ html{
          margin:5px 0 20px;
          > .content{
             @include ibl;
-            font-size: 21px;
+            font-size: 1em;
             width: 100%;
             max-width:550px;
             color:#777;
@@ -1283,7 +1283,7 @@ html{
                      width: 100%;
                      
                      font-weight: 600;
-                     font-size: 50px;
+                     font-size: 2em;
                      
                      color: rgb(48, 48, 48);
                      letter-spacing: 20px;
@@ -1300,7 +1300,7 @@ html{
                      @include block-float();
                      width: 100%;
                      color: rgb(15, 15, 15);
-                     font-size: 18px;
+                     font-size: 1em;
                      height: 150px;
                      overflow: hidden;
 
@@ -1587,7 +1587,7 @@ html{
             @include ibl;
             width:100%;
             letter-spacing: -1px;
-            font-size: 22px;
+            font-size: 1em;
             text-align: center;
          }
          > .form{
@@ -1664,7 +1664,7 @@ html{
       margin:  10px  0  ;
       border-collapse: collapse;
       border-color: #fdcd5e;
-      font-size: 20px;
+      font-size: 1em;
       color:rgb(48, 61, 94);
       @include MCW(581px){
          margin: 0 0 15px 0;
