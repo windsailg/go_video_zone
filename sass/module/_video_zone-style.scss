@@ -108,6 +108,11 @@ $cgo_graduate_link_minor_fadeAlmond:#eeb58f;
    }
    &.type__video__zone {
       background-color: #408000;
+      background-image: url('../../img/video_zone_img/background_video.jpg');
+      background-size:  cover;
+      background-position: left top;
+      background-repeat: no-repeat;
+      
    }
    .container{
       @include b;
@@ -479,7 +484,7 @@ $cgo_graduate_link_minor_fadeAlmond:#eeb58f;
          .close_btn{
             @include ibl;
             width:100%;
-            background-color:#ddd;
+            background-color:$cgo_orange;
             max-width: 1150px;
             text-align: center;
             padding:8px;
@@ -533,7 +538,7 @@ $cgo_graduate_link_minor_fadeAlmond:#eeb58f;
          font-size: .9em;
          border: 0px solid transparent;;
          outline: none;
-         margin: 6px 20px 10px 0;
+         margin: 8px 20px 10px 0;
          // padding:  0px 0 5px;
          @include fxc;
          option{
@@ -541,6 +546,7 @@ $cgo_graduate_link_minor_fadeAlmond:#eeb58f;
          }
       }
    }
+
    .imagine__block{
       @include fxc;
       width: auto;

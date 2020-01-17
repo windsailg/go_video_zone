@@ -160,6 +160,10 @@
 
 .area.type__video__zone {
   background-color: #408000;
+  background-image: url("../../img/video_zone_img/background_video.jpg");
+  background-size: cover;
+  background-position: left top;
+  background-repeat: no-repeat;
 }
 
 .area .container {
@@ -721,7 +725,7 @@
   display: inline-block;
   float: left;
   width: 100%;
-  background-color: #ddd;
+  background-color: #f29001;
   max-width: 1150px;
   text-align: center;
   padding: 8px;
@@ -798,7 +802,7 @@
   font-size: .9em;
   border: 0px solid transparent;
   outline: none;
-  margin: 6px 20px 10px 0;
+  margin: 8px 20px 10px 0;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
       -ms-flex-pack: center;
