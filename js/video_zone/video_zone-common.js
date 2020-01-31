@@ -79,17 +79,6 @@ $(document).ready(function(){
 	});
 
 
-
-
-	//Graduate nav functions
-
-	// NavHideFirst();
-	// function NavHideFirst(){
-	// 	$('#SubjectNav').hide(0);
-	// 	$('#NavMask').fadeOut(100);
-	// 	$('#SubjectNavBody').slideUp(100);
-	// };
-
 	function NavHide(){
 		$('#SubjectNav').delay(400).hide(0);
 		$('#NavMask').fadeOut(100);
