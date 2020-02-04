@@ -10,7 +10,6 @@ $cgo_fadeGreen:#6e9b41;
 $cgo_faderGreen:#9cd365;
 $cgo_textBlue:#5a5975;
 
-
 //Graduate SideBar Link
 $cgo_graduate_link_fadeGreen:#9cd365;
 $cgo_graduate_link_fadeAlmond:#caa389;
@@ -105,6 +104,9 @@ $cgo_graduate_link_minor_fadeAlmond:#eeb58f;
       position: relative;
       z-index: 1;
       overflow: visible;
+      @include MCW(1301px) {
+         margin:30px 0 0px 0;
+      }
    }
    &.type__video__zone {
       background-color: #408000;
@@ -170,6 +172,7 @@ $cgo_graduate_link_minor_fadeAlmond:#eeb58f;
 
 #videoZone {
    font-family: 'Century Gothic','Source Sans Pro' , 'Muli' ,'微軟正黑體','Arial', '新細明體';
+
    //Top Menu
    .subject_block{
       @include fxfs;
@@ -942,6 +945,162 @@ $cgo_graduate_link_minor_fadeAlmond:#eeb58f;
    }
 
 
+   //影音專區頂部介紹區塊
+   .top__intro__block{
+      @include fxb;
+      width: 100%;
+      .top__intro__box {
+         @include fxc;
+         padding: 5px 0;
+      }
+      //影片專區公用列表
+      .intro__list{
+         width: 100%;
+         max-width: 180px;
+         @include MCW(1301px) {
+            display: none;
+         }
+      }
+      .intro__list__title {
+         @include fxc;
+         font-size: 1.4em;
+         font-weight: 400;
+         width: 100%;
+         max-width: 150px;
+         text-align: center;
+         border-width: 0 0 1px 0;
+         border-style: solid;
+         border-color: #999999;
+         padding: 15px;
+         margin: 0 0 10px 0;
+      }
+      .intro__list__item{
+         @include fxfs;
+         width: 100%;
+         max-width: 250px;
+         padding: 8px 0;
+      }
+      .intro__list__item__imagine{
+         width: 100%;
+         max-width: 120px;
+      }
+      .intro__list__item__name{
+         width: 100%;
+         max-width: 40px;
+         font-size: 1.2em;
+      }
+
+      //各種影片區塊
+      .intro__videos{
+         @include fxfs;
+         box-sizing: border-box;
+         padding:  0 0 0 15px;
+         height: 450px;
+         width: 100%;
+         max-width: calc(100% - 180px);
+         @include MCW(1301px) {
+            max-width: 100%;
+            justify-content: center;
+         }
+         @include MCW(1101px) {
+            height: unset;
+         }
+      }
+
+      //影片列表區塊
+      .intro__video__box{
+         width: 100%;
+         max-width: 840px;
+         height: 100%;
+         iframe, 
+         video{
+            width: 100%;
+            height: 100%;
+         }
+         @include MCW(1101px) {
+            max-width:unset;
+            height: 36vw;
+         }
+      }
+      .intro__video__list{
+         @include fxfs;
+         padding: 0  0 0 15px;
+         width: 100%;
+         max-width: calc(100% - 840px);
+         @include MCW(1301px) {
+         }
+         @include MCW(1101px) {
+            max-width: unset;
+            padding: 8px 0 ;
+            justify-content: space-between;
+            flex-wrap: nowrap;
+         }
+
+      }
+      .intro__video__list__item{
+         @include fxc;
+         width: 100%;;
+         max-width:185px;
+         height:105px;
+         @include hover;
+         &:not(:last-child){
+            margin:  0 0 10px 0;;
+         }
+         @include MCW(1101px) {
+            &:not(:last-child) {
+               margin: 0 0 0 0;
+               ;
+            }
+         }
+      }
+
+      //影片標題詳細資訊
+      .intro__title{
+         @include fxfe;
+         width: 100%;;
+      }
+      .intro__title__box{
+         @include ibl;
+         max-width: calc(100% - 180px );
+         width: 100%;
+         padding: 0 0 0 15px;
+         font-size: 1.3em;
+         @include MCW(1301px) {
+            max-width: 100%;
+         }
+      }
+      .intro__title__tag{
+         @include ibl;
+         width: 100%;;
+         color:#4289fc;
+         font-size: .9em;
+         padding:  0 6px 0 0;
+      }
+      .info__box {
+         @include fxfs;
+         width: 100%;
+      }
+      .info__element {
+         width: auto;
+         padding: 3px 20px 3px 0px;
+         font-size: .8em;
+         @include MCW(861px) {
+            font-size: .8em;
+         }
+      }
+      .info__viewed {
+         i {
+            color: #6c9911;
+         }
+      }
+      .info__date {
+         i {
+            color: #6c9911;
+         }
+      }
+   }
+
+
 
    //未決
    .side_info_block{
@@ -1407,6 +1566,8 @@ $cgo_graduate_link_minor_fadeAlmond:#eeb58f;
    }
 
 }
+
+
 
 ul{
    list-style-type: none;

@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @import url(https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
-.bread_crumb_block .bread_crumb, .area.type_nav, .area.type_cover, .area .container.type_nav, .area .container.type_cover, .area .container.type__floater, #videoZone .subject_block, #videoZone .video__search__block, #videoZone .video__search__block .search__submiter, #videoZone .subject_conainer, #videoZone .subject_conainer .subject_item, #videoZone .subject_conainer.type_mob .subject_item, #videoZone .subject_conainer.type_fixed, #videoZone .subject_conainer.type_fixed .subject_item, #videoZone .subject_nav, #videoZone .subject_nav .subject_nav_container, #videoZone .sorter__block, #videoZone .sorter__block .sorter__box, #videoZone .sorter__block .sorter, #videoZone .sorter__block .sorter__style, #videoZone .sorter__block .sorter__style__ele, #videoZone .imagine__block, #videoZone .imagine__block .imagine__box, #videoZone .imagine__block .imagine__box .imagine, #videoZone .imagine__block .imagine__box .info__box, #videoZone .imagine__block .more__btn, #videoZone .program__block, #videoZone .program__block .program__box, #videoZone .program__block .imagine, #videoZone .program__block .program__tag__box, #videoZone .program__block .program__title, #videoZone .program__block .program__date__box, #videoZone .program__block .program__status__box, #videoZone .program__block .program__status__ele, #videoZone .program__block .more__btn, #videoZone .program__block.table__view, #videoZone .program__block .program__table .program__title__box, #videoZone .program__block .program__table .program__status__ele, #videoZone .side_info_block, #videoZone .side_info_block > .info_container, #videoZone .side_info_block > .info_container > .news, #videoZone .side_info_block > .info_container > .news > .list, #videoZone .side_info_block > .info_container > .news > .list > .item, #videoZone .side_info_block > .info_container > .news > .list > .item a, #videoZone .side_info_block > .info_container > .services, #videoZone .side_info_block > .info_container > .services > .list, #videoZone .side_info_block > .info_container > .services > .list > .item, #videoZone .side_info_block > .info_container > .services > .list > .item a, #videoZone .side_info_block > .info_container > .services > .list > .item .icon, #videoZone .side_info_block > .info_container > .services > .list > .item .title_box, #videoZone .side_info_block > .info_container > .services > .list > .item .arrow, #videoZone .side_info_block > .info_container > .links > .list > .item a, #videoZone .main_content_block, #videoZone .main_content_block .title_block, #videoZone .recommend_pager_block, #videoZone .recommend_pager_block .pager, #videoZone .recommend_pager_block .pager.type_pagination, #videoZone .recommend_pager_block .pager.type_pagination > .item > a, #videoZone .recommend_article_block, #videoZone .pager_block, #videoZone .more_block, .checker, .checker .checkmark, .area .container.type_detail, #examList .side_info_block, #examList .side_info_block > .info_container, #examList .side_info_block > .info_container > .news, #examList .side_info_block > .info_container > .news > .list, #examList .side_info_block > .info_container > .news > .list > .item, #examList .side_info_block > .info_container > .news > .list > .item a, #examList .side_info_block > .info_container > .services, #examList .side_info_block > .info_container > .services > .list, #examList .side_info_block > .info_container > .services > .list > .item, #examList .side_info_block > .info_container > .services > .list > .item a, #examList .side_info_block > .info_container > .services > .list > .item .icon, #examList .side_info_block > .info_container > .services > .list > .item .title_box, #examList .side_info_block > .info_container > .services > .list > .item .arrow, #examList .side_info_block > .info_container > .links > .list > .item a, #examList .main_content_block, #examList .main_content_block .control_block > .tab_list, #examList .main_content_block .control_block > .tab_list > .tab, #examList .main_content_block .control_block > .tab_list > .tab > .item, #videoZone .top_title, #videoZone .banner_block, #videoZone .banner_block .content .classification .icon_box, #videoZone .info_block, #videoZone .info_block > .box .article_block_list .article_box, #videoZone .info_block > .box .article_block_list .article_box .item, #videoZone .course_intro .timeline .timeline_block .tabs .tab_box, #videoZone .course_intro .course_information > .content_table.type_btns, #videoZone .course_intro .course_information .course_swiper_block .course_swiper .swiper-slide .course_image, #videoZone .course_intro .course_information .course_swiper_block .course_swiper .swiper-slide .more_block, #videoZone .valuable_block, #videoZone .valuable_block > .features, #videoZone .imagine_exp .experience_box .img_block .avatar_block .img_box, #videoZone .video_intro > .video_box > .video_block .video > .img_box, #videoZone .form_block > .form .submit_block {
+.bread_crumb_block .bread_crumb, .area.type_nav, .area.type_cover, .area .container.type_nav, .area .container.type_cover, .area .container.type__floater, #videoZone .subject_block, #videoZone .video__search__block, #videoZone .video__search__block .search__submiter, #videoZone .subject_conainer, #videoZone .subject_conainer .subject_item, #videoZone .subject_conainer.type_mob .subject_item, #videoZone .subject_conainer.type_fixed, #videoZone .subject_conainer.type_fixed .subject_item, #videoZone .subject_nav, #videoZone .subject_nav .subject_nav_container, #videoZone .sorter__block, #videoZone .sorter__block .sorter__box, #videoZone .sorter__block .sorter, #videoZone .sorter__block .sorter__style, #videoZone .sorter__block .sorter__style__ele, #videoZone .imagine__block, #videoZone .imagine__block .imagine__box, #videoZone .imagine__block .imagine__box .imagine, #videoZone .imagine__block .imagine__box .info__box, #videoZone .imagine__block .more__btn, #videoZone .program__block, #videoZone .program__block .program__box, #videoZone .program__block .imagine, #videoZone .program__block .program__tag__box, #videoZone .program__block .program__title, #videoZone .program__block .program__date__box, #videoZone .program__block .program__status__box, #videoZone .program__block .program__status__ele, #videoZone .program__block .more__btn, #videoZone .program__block.table__view, #videoZone .program__block .program__table .program__title__box, #videoZone .program__block .program__table .program__status__ele, #videoZone .top__intro__block, #videoZone .top__intro__block .top__intro__box, #videoZone .top__intro__block .intro__list__title, #videoZone .top__intro__block .intro__list__item, #videoZone .top__intro__block .intro__videos, #videoZone .top__intro__block .intro__video__list, #videoZone .top__intro__block .intro__video__list__item, #videoZone .top__intro__block .intro__title, #videoZone .top__intro__block .info__box, #videoZone .side_info_block, #videoZone .side_info_block > .info_container, #videoZone .side_info_block > .info_container > .news, #videoZone .side_info_block > .info_container > .news > .list, #videoZone .side_info_block > .info_container > .news > .list > .item, #videoZone .side_info_block > .info_container > .news > .list > .item a, #videoZone .side_info_block > .info_container > .services, #videoZone .side_info_block > .info_container > .services > .list, #videoZone .side_info_block > .info_container > .services > .list > .item, #videoZone .side_info_block > .info_container > .services > .list > .item a, #videoZone .side_info_block > .info_container > .services > .list > .item .icon, #videoZone .side_info_block > .info_container > .services > .list > .item .title_box, #videoZone .side_info_block > .info_container > .services > .list > .item .arrow, #videoZone .side_info_block > .info_container > .links > .list > .item a, #videoZone .main_content_block, #videoZone .main_content_block .title_block, #videoZone .recommend_pager_block, #videoZone .recommend_pager_block .pager, #videoZone .recommend_pager_block .pager.type_pagination, #videoZone .recommend_pager_block .pager.type_pagination > .item > a, #videoZone .recommend_article_block, #videoZone .pager_block, #videoZone .more_block, .checker, .checker .checkmark, .area .container.type_detail, #examList .side_info_block, #examList .side_info_block > .info_container, #examList .side_info_block > .info_container > .news, #examList .side_info_block > .info_container > .news > .list, #examList .side_info_block > .info_container > .news > .list > .item, #examList .side_info_block > .info_container > .news > .list > .item a, #examList .side_info_block > .info_container > .services, #examList .side_info_block > .info_container > .services > .list, #examList .side_info_block > .info_container > .services > .list > .item, #examList .side_info_block > .info_container > .services > .list > .item a, #examList .side_info_block > .info_container > .services > .list > .item .icon, #examList .side_info_block > .info_container > .services > .list > .item .title_box, #examList .side_info_block > .info_container > .services > .list > .item .arrow, #examList .side_info_block > .info_container > .links > .list > .item a, #examList .main_content_block, #examList .main_content_block .control_block > .tab_list, #examList .main_content_block .control_block > .tab_list > .tab, #examList .main_content_block .control_block > .tab_list > .tab > .item, #videoZone .top_title, #videoZone .banner_block, #videoZone .banner_block .content .classification .icon_box, #videoZone .info_block, #videoZone .info_block > .box .article_block_list .article_box, #videoZone .info_block > .box .article_block_list .article_box .item, #videoZone .course_intro .timeline .timeline_block .tabs .tab_box, #videoZone .course_intro .course_information > .content_table.type_btns, #videoZone .course_intro .course_information .course_swiper_block .course_swiper .swiper-slide .course_image, #videoZone .course_intro .course_information .course_swiper_block .course_swiper .swiper-slide .more_block, #videoZone .valuable_block, #videoZone .valuable_block > .features, #videoZone .imagine_exp .experience_box .img_block .avatar_block .img_box, #videoZone .video_intro > .video_box > .video_block .video > .img_box, #videoZone .form_block > .form .submit_block {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -156,6 +156,12 @@
   position: relative;
   z-index: 1;
   overflow: visible;
+}
+
+@media all and (max-width: 1301px) {
+  .area.type_cover {
+    margin: 30px 0 0px 0;
+  }
 }
 
 .area.type__video__zone {
@@ -1458,6 +1464,238 @@
   #videoZone .program__block .program__table .program__tag__box {
     display: block;
   }
+}
+
+#videoZone .top__intro__block {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+#videoZone .top__intro__block .top__intro__box {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 5px 0;
+}
+
+#videoZone .top__intro__block .intro__list {
+  width: 100%;
+  max-width: 180px;
+}
+
+@media all and (max-width: 1301px) {
+  #videoZone .top__intro__block .intro__list {
+    display: none;
+  }
+}
+
+#videoZone .top__intro__block .intro__list__title {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 1.4em;
+  font-weight: 400;
+  width: 100%;
+  max-width: 150px;
+  text-align: center;
+  border-width: 0 0 1px 0;
+  border-style: solid;
+  border-color: #999999;
+  padding: 15px;
+  margin: 0 0 10px 0;
+}
+
+#videoZone .top__intro__block .intro__list__item {
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 100%;
+  max-width: 250px;
+  padding: 8px 0;
+}
+
+#videoZone .top__intro__block .intro__list__item__imagine {
+  width: 100%;
+  max-width: 120px;
+}
+
+#videoZone .top__intro__block .intro__list__item__name {
+  width: 100%;
+  max-width: 40px;
+  font-size: 1.2em;
+}
+
+#videoZone .top__intro__block .intro__videos {
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0 0 0 15px;
+  height: 450px;
+  width: 100%;
+  max-width: calc(100% - 180px);
+}
+
+@media all and (max-width: 1301px) {
+  #videoZone .top__intro__block .intro__videos {
+    max-width: 100%;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media all and (max-width: 1101px) {
+  #videoZone .top__intro__block .intro__videos {
+    height: unset;
+  }
+}
+
+#videoZone .top__intro__block .intro__video__box {
+  width: 100%;
+  max-width: 840px;
+  height: 100%;
+}
+
+#videoZone .top__intro__block .intro__video__box iframe,
+#videoZone .top__intro__block .intro__video__box video {
+  width: 100%;
+  height: 100%;
+}
+
+@media all and (max-width: 1101px) {
+  #videoZone .top__intro__block .intro__video__box {
+    max-width: unset;
+    height: 36vw;
+  }
+}
+
+#videoZone .top__intro__block .intro__video__list {
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 0  0 0 15px;
+  width: 100%;
+  max-width: calc(100% - 840px);
+}
+
+@media all and (max-width: 1101px) {
+  #videoZone .top__intro__block .intro__video__list {
+    max-width: unset;
+    padding: 8px 0;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+  }
+}
+
+#videoZone .top__intro__block .intro__video__list__item {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  max-width: 185px;
+  height: 105px;
+  -webkit-transition: 0.2s all ease-out;
+  -o-transition: 0.2s all ease-out;
+  transition: 0.2s all ease-out;
+  cursor: pointer;
+}
+
+#videoZone .top__intro__block .intro__video__list__item:hover {
+  opacity: .8;
+  -webkit-transition-duration: .1s;
+       -o-transition-duration: .1s;
+          transition-duration: .1s;
+}
+
+#videoZone .top__intro__block .intro__video__list__item:not(:last-child) {
+  margin: 0 0 10px 0;
+}
+
+@media all and (max-width: 1101px) {
+  #videoZone .top__intro__block .intro__video__list__item:not(:last-child) {
+    margin: 0 0 0 0;
+  }
+}
+
+#videoZone .top__intro__block .intro__title {
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 100%;
+}
+
+#videoZone .top__intro__block .intro__title__box {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: inline-block;
+  float: left;
+  max-width: calc(100% - 180px);
+  width: 100%;
+  padding: 0 0 0 15px;
+  font-size: 1.3em;
+}
+
+@media all and (max-width: 1301px) {
+  #videoZone .top__intro__block .intro__title__box {
+    max-width: 100%;
+  }
+}
+
+#videoZone .top__intro__block .intro__title__tag {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: inline-block;
+  float: left;
+  width: 100%;
+  color: #4289fc;
+  font-size: .9em;
+  padding: 0 6px 0 0;
+}
+
+#videoZone .top__intro__block .info__box {
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 100%;
+}
+
+#videoZone .top__intro__block .info__element {
+  width: auto;
+  padding: 3px 20px 3px 0px;
+  font-size: .8em;
+}
+
+@media all and (max-width: 861px) {
+  #videoZone .top__intro__block .info__element {
+    font-size: .8em;
+  }
+}
+
+#videoZone .top__intro__block .info__viewed i {
+  color: #6c9911;
+}
+
+#videoZone .top__intro__block .info__date i {
+  color: #6c9911;
 }
 
 #videoZone .side_info_block {
