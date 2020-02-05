@@ -7,15 +7,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     
     <title>影音專區-節目表</title>
-<link rel="icon" href="https://www.tkbgo.com.tw/tkbgo/images/favicon.png">
+    <link rel="icon" href="https://www.tkbgo.com.tw/tkbgo/images/favicon.png">
 
-<!-- Golbal -->
-<link rel="stylesheet" href="css/go-header.css">
-<link rel="stylesheet" href="css/go-header-v2.css">
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/page.css">
-<link rel="stylesheet" href="css/go-footer.css">
-<link rel="stylesheet" href="css/go-responsive.css">   
+    <!-- Golbal -->
+    <link rel="stylesheet" href="css/go-header.css">
+    <link rel="stylesheet" href="css/go-header-v2.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/page.css">
+    <link rel="stylesheet" href="css/go-footer.css">
+    <link rel="stylesheet" href="css/go-responsive.css">   
 
   <!-- Only Videozone -->
   <link rel="stylesheet" href="css/video-style.css">
@@ -38,15 +38,14 @@
    <!-- <div id="loading"></div> -->
 <div class="header"></div>
 
-    
+<div id="NavMask" class="nav_mask"></div>
+
 <div id="videoZone" >
   
-
-<div class="nav_mask"></div>
  <div class="el-container">
 
   <div class="area type__video__zone">
-    <div class="container">
+    <div class="container type__top__menu">
 
         <div class="block bread_crumb_block type_graduate">
             <ul class="bread_crumb">
@@ -68,7 +67,7 @@
 
         <div class="subject_block">
 
-          <div id="SubjectListMajor" class="subject_conainer">
+          <div id="SubjectListMajor" class="subject_container">
             <div class="swiper-wrapper">
               
               <div href="#" id="SubjectNavTrigger" class="item subject_item openable swiper-slide">
@@ -76,7 +75,7 @@
                 <span class="name">影片</span>
               </div>
               
-              <a href="https://www.tkbgo.com.tw/article/teacher/toArticle.jsp?article_id=575" class="item subject_item swiper-slide">
+              <a href="https://www.tkbgo.com.tw/article/teacher/toArticle.jsp?article_id=575" class="item thispage subject_item swiper-slide">
                 <i class="far fa-calendar-alt"></i>
                 <span class="name">節目表</span>
               </a>
@@ -141,6 +140,7 @@
 
         <div id="SubjectNavBody" class="subject_nav_container">
 
+          
           <div class="subject_list_box">
             <div class="title">
               主題系列
@@ -333,13 +333,14 @@
             </ul>
           </div>
 
-
           <div id="NavClose" class="close_btn">
             送出
           </div>
+
         </div>
 
-        <div id="NavMask" class="nav_mask"></div>
+
+
 
       </div>
 
@@ -365,7 +366,7 @@
               </select>
             </div>
 
-            <div class="sorter__style">
+            <!-- <div class="sorter__style">
 
               <div id="StyleSorterGrid" class="sorter__style__ele sorter__style__active style__grid">
                 <i class="fas fa-th-large"></i>
@@ -374,11 +375,14 @@
                 <i class="fas fa-list"></i>
               </div>
 
-            </div>
+            </div> -->
 
           </div>
           
-          <div id="ProgramGridBlock"class="program__block">
+
+
+
+          <!-- <div id="ProgramGridBlock"class="program__block">
 
             <div class="program__box">
 
@@ -481,10 +485,17 @@
 
             </div>
 
-          </div>
+          </div> -->
 
           <div id="ProgramListBlock" class="program__block table__view">
 
+
+            <div class="videomonth__block">
+              <div class="videomonth__title">
+                <strong>12月份</strong>直播表
+              </div>
+            </div>
+            
             <table class="program__table">
               <thead>
                 <tr>
@@ -572,6 +583,195 @@
               </tbody>
             </table>
 
+
+            <div class="videomonth__block">
+              <div class="videomonth__title">
+                <strong>11月份</strong>直播表
+              </div>
+            </div>
+
+            <table class="program__table">
+              <thead>
+                <tr>
+                  <th>
+                    影片節目表
+                  </th>
+                  <th>
+                    觀看影片
+                  </th>
+                  <th>
+                    產品分類
+                  </th>
+                  <th>
+                    影片類型
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <a href="#" class="program__title__box">
+                      <div class="program__date">10/02:20:30</div>
+                      <span class="program__deco">/</span>
+                      <div class="program__title"> 何明老師 -環境類出路講座</div>
+                    </a>
+                    <div class="program__tag__box">
+                      <a href="#" class="program__tag__ele type__orange">國營聯招</a>
+                      <a href="#" class="program__tag__ele type__blue">解題講座</a>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="program__status__ele program__status__coming__soon">即將上架</div>
+                  </td>
+                  <td>
+                    國營聯招
+                  </td>
+                  <td>
+                    解題講座
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="#" class="program__title__box">
+                      <div class="program__date">10/02:20:30</div>
+                      <span class="program__deco">/</span>
+                      <div class="program__title"> 何明老師 -環境類出路講座</div>
+                    </a>
+                    <div class="program__tag__box">
+                      <a href="#" class="program__tag__ele type__orange">國營聯招</a>
+                      <a href="#" class="program__tag__ele type__blue">解題講座</a>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="program__status__ele program__status__living__soon">即將直播</div>
+                  </td>
+                  <td>
+                    國營聯招
+                  </td>
+                  <td>
+                    解題講座
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="#" class="program__title__box">
+                      <div class="program__date">10/02:20:30</div>
+                      <span class="program__deco">/</span>
+                      <div class="program__title"> 何明老師 -環境類出路講座</div>
+                    </a>
+                    <div class="program__tag__box">
+                      <a href="#" class="program__tag__ele type__orange">國營聯招</a>
+                      <a href="#" class="program__tag__ele type__blue">解題講座</a>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="program__status__ele program__status__watching__now">立即觀看</div>
+                  </td>
+                  <td>
+                    國營聯招
+                  </td>
+                  <td>
+                    解題講座
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+
+            <div class="videomonth__block">
+              <div class="videomonth__title">
+                <strong>10月份</strong>直播表
+              </div>
+            </div>
+
+            <table class="program__table">
+              <thead>
+                <tr>
+                  <th>
+                    影片節目表
+                  </th>
+                  <th>
+                    觀看影片
+                  </th>
+                  <th>
+                    產品分類
+                  </th>
+                  <th>
+                    影片類型
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <a href="#" class="program__title__box">
+                      <div class="program__date">10/02:20:30</div>
+                      <span class="program__deco">/</span>
+                      <div class="program__title"> 何明老師 -環境類出路講座</div>
+                    </a>
+                    <div class="program__tag__box">
+                      <a href="#" class="program__tag__ele type__orange">國營聯招</a>
+                      <a href="#" class="program__tag__ele type__blue">解題講座</a>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="program__status__ele program__status__coming__soon">即將上架</div>
+                  </td>
+                  <td>
+                    國營聯招
+                  </td>
+                  <td>
+                    解題講座
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="#" class="program__title__box">
+                      <div class="program__date">10/02:20:30</div>
+                      <span class="program__deco">/</span>
+                      <div class="program__title"> 何明老師 -環境類出路講座</div>
+                    </a>
+                    <div class="program__tag__box">
+                      <a href="#" class="program__tag__ele type__orange">國營聯招</a>
+                      <a href="#" class="program__tag__ele type__blue">解題講座</a>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="program__status__ele program__status__living__soon">即將直播</div>
+                  </td>
+                  <td>
+                    國營聯招
+                  </td>
+                  <td>
+                    解題講座
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="#" class="program__title__box">
+                      <div class="program__date">10/02:20:30</div>
+                      <span class="program__deco">/</span>
+                      <div class="program__title"> 何明老師 -環境類出路講座</div>
+                    </a>
+                    <div class="program__tag__box">
+                      <a href="#" class="program__tag__ele type__orange">國營聯招</a>
+                      <a href="#" class="program__tag__ele type__blue">解題講座</a>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="program__status__ele program__status__watching__now">立即觀看</div>
+                  </td>
+                  <td>
+                    國營聯招
+                  </td>
+                  <td>
+                    解題講座
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+
           </div>
 
       </div>
@@ -579,7 +779,7 @@
     </div>
   </div>
     
-</div><!---公職區結束--->
+</div>
     
 
 </div>
@@ -595,15 +795,14 @@
 <script src="js/jquery.focuspoint.js"></script>
 <script src="js/jquery.lazy.min.js"></script>
 <script src="js/jquery.colorbox-min.js"></script>
+<script src="js/video_zone/video_zone-common.js"></script>
 
 <!-- OnlyThisPage CDN JS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/js/swiper.js"></script>
 <script src="https://www.gstatic.com/charts/loader.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-<!-- OnlyThisPage JS -->
-<script src="js/video_zone/video_zone-common.js"></script>
-<script src="js/video_zone/video_zone-program_list.js"></script>
+
 <!-- <script type="text/javascript">
 
   function onSubmit(){
@@ -650,6 +849,27 @@
 
 </script> -->
     
+<script>
+
+  // $('#ProgramListBlock').hide(0);
+  // $('.sorter__style__ele').on('click', function () {
+  //   $('.sorter__style__ele').removeClass('sorter__style__active');
+  //   $(this).addClass('sorter__style__active');
+  // });
+
+  // $('#StyleSorterGrid').on('click',function(){
+  //   $('#ProgramGridBlock').delay(100).fadeIn(400);
+  //   $('#ProgramListBlock').delay(100).hide(0);
+  // })
+
+  // $('#StyleSorterList').on('click', function () {
+  //   $('#ProgramListBlock').delay(100).fadeIn(400);
+  //   $('#ProgramGridBlock').delay(100).hide(0)
+  // })
+
+</script>
+
+
 </body>
 
 </html>

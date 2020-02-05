@@ -46,12 +46,12 @@ $(document).ready(function(){
 		speed:400,
 		grabCursor : true,
 		allowTouchMove: true,
-		breakpoints: { 
-			601: {
-				initialSlide :1,
-				centeredSlides :true,
-			},
-		},
+		// breakpoints: { 
+		// 	601: {
+		// 		initialSlide :1,
+		// 		centeredSlides :true,
+		// 	},
+		// },
 	});
 	var SubjectListMinor = new Swiper('#SubjectListMinor', {
 		slidesPerView: 'auto',
@@ -83,6 +83,9 @@ $(document).ready(function(){
 		$('#SubjectNav').delay(400).hide(0);
 		$('#NavMask').fadeOut(100);
 		$('#SubjectNavBody').slideUp(100);
+		$('html,body').css({
+			'overflow': 'visible'
+		})
 	};
 
 
@@ -91,7 +94,7 @@ $(document).ready(function(){
 		$('#SubjectNav').show();
 		$('#SubjectNavBody').delay(100).slideDown(150);
 		$('#NavMask').fadeIn(100);
-		
+		$('html,body').css({'overflow': 'hidden'})
 	};
 
 	$('#SubjectNavTrigger').click(function(){
@@ -157,14 +160,7 @@ $(document).ready(function(){
 	}
 
 	//文章斷點
-	var info_content_len = 110;
-	$('.info_content').each(function(i){
-		if($(this).text().length>info_content_len){
-			$(this).attr("title",$(this).text());
-			var thistext=$(this).text().substring(0,info_content_len-1)+"...";
-			$(this).text(thistext);
-		};
-	});
+
 
 
 });

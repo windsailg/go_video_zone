@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @import url(https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
-.bread_crumb_block .bread_crumb, .area.type_nav, .area.type_cover, .area .container.type_nav, .area .container.type_cover, .area .container.type__floater, #videoZone .subject_block, #videoZone .video__search__block, #videoZone .video__search__block .search__submiter, #videoZone .subject_conainer, #videoZone .subject_conainer .subject_item, #videoZone .subject_conainer.type_mob .subject_item, #videoZone .subject_conainer.type_fixed, #videoZone .subject_conainer.type_fixed .subject_item, #videoZone .subject_nav, #videoZone .subject_nav .subject_nav_container, #videoZone .sorter__block, #videoZone .sorter__block .sorter__box, #videoZone .sorter__block .sorter, #videoZone .sorter__block .sorter__style, #videoZone .sorter__block .sorter__style__ele, #videoZone .imagine__block, #videoZone .imagine__block .imagine__box, #videoZone .imagine__block .imagine__box .imagine, #videoZone .imagine__block .imagine__box .info__box, #videoZone .imagine__block .more__btn, #videoZone .program__block, #videoZone .program__block .program__box, #videoZone .program__block .imagine, #videoZone .program__block .program__tag__box, #videoZone .program__block .program__title, #videoZone .program__block .program__date__box, #videoZone .program__block .program__status__box, #videoZone .program__block .program__status__ele, #videoZone .program__block .more__btn, #videoZone .program__block.table__view, #videoZone .program__block .program__table .program__title__box, #videoZone .program__block .program__table .program__status__ele, #videoZone .top__intro__block, #videoZone .top__intro__block .top__intro__box, #videoZone .top__intro__block .intro__list__title, #videoZone .top__intro__block .intro__list__item, #videoZone .top__intro__block .intro__videos, #videoZone .top__intro__block .intro__video__list, #videoZone .top__intro__block .intro__video__list__item, #videoZone .top__intro__block .intro__title, #videoZone .top__intro__block .info__box, #videoZone .side_info_block, #videoZone .side_info_block > .info_container, #videoZone .side_info_block > .info_container > .news, #videoZone .side_info_block > .info_container > .news > .list, #videoZone .side_info_block > .info_container > .news > .list > .item, #videoZone .side_info_block > .info_container > .news > .list > .item a, #videoZone .side_info_block > .info_container > .services, #videoZone .side_info_block > .info_container > .services > .list, #videoZone .side_info_block > .info_container > .services > .list > .item, #videoZone .side_info_block > .info_container > .services > .list > .item a, #videoZone .side_info_block > .info_container > .services > .list > .item .icon, #videoZone .side_info_block > .info_container > .services > .list > .item .title_box, #videoZone .side_info_block > .info_container > .services > .list > .item .arrow, #videoZone .side_info_block > .info_container > .links > .list > .item a, #videoZone .main_content_block, #videoZone .main_content_block .title_block, #videoZone .recommend_pager_block, #videoZone .recommend_pager_block .pager, #videoZone .recommend_pager_block .pager.type_pagination, #videoZone .recommend_pager_block .pager.type_pagination > .item > a, #videoZone .recommend_article_block, #videoZone .pager_block, #videoZone .more_block, .checker, .checker .checkmark, .area .container.type_detail, #examList .side_info_block, #examList .side_info_block > .info_container, #examList .side_info_block > .info_container > .news, #examList .side_info_block > .info_container > .news > .list, #examList .side_info_block > .info_container > .news > .list > .item, #examList .side_info_block > .info_container > .news > .list > .item a, #examList .side_info_block > .info_container > .services, #examList .side_info_block > .info_container > .services > .list, #examList .side_info_block > .info_container > .services > .list > .item, #examList .side_info_block > .info_container > .services > .list > .item a, #examList .side_info_block > .info_container > .services > .list > .item .icon, #examList .side_info_block > .info_container > .services > .list > .item .title_box, #examList .side_info_block > .info_container > .services > .list > .item .arrow, #examList .side_info_block > .info_container > .links > .list > .item a, #examList .main_content_block, #examList .main_content_block .control_block > .tab_list, #examList .main_content_block .control_block > .tab_list > .tab, #examList .main_content_block .control_block > .tab_list > .tab > .item, #videoZone .top_title, #videoZone .banner_block, #videoZone .banner_block .content .classification .icon_box, #videoZone .info_block, #videoZone .info_block > .box .article_block_list .article_box, #videoZone .info_block > .box .article_block_list .article_box .item, #videoZone .course_intro .timeline .timeline_block .tabs .tab_box, #videoZone .course_intro .course_information > .content_table.type_btns, #videoZone .course_intro .course_information .course_swiper_block .course_swiper .swiper-slide .course_image, #videoZone .course_intro .course_information .course_swiper_block .course_swiper .swiper-slide .more_block, #videoZone .valuable_block, #videoZone .valuable_block > .features, #videoZone .imagine_exp .experience_box .img_block .avatar_block .img_box, #videoZone .video_intro > .video_box > .video_block .video > .img_box, #videoZone .form_block > .form .submit_block {
+.bread_crumb_block .bread_crumb, .area.type_nav, .area.type_cover, .area .container.type_nav, .area .container.type_cover, .area .container.type__floater, #videoZone .subject_block, #videoZone .video__search__block, #videoZone .video__search__block .search__submiter, #videoZone .subject_container, #videoZone .subject_container .subject_item, #videoZone .subject_container.type_mob .subject_item, #videoZone .subject_container.type_fixed, #videoZone .subject_container.type_fixed .subject_item, #videoZone .subject_nav, #videoZone .subject_nav .subject_nav_container, #videoZone .sorter__block, #videoZone .sorter__block .sorter__box, #videoZone .sorter__block .sorter, #videoZone .sorter__block .sorter__style, #videoZone .sorter__block .sorter__style__ele, #videoZone .imagine__block, #videoZone .imagine__block .imagine__box, #videoZone .imagine__block .imagine__box .imagine, #videoZone .imagine__block .imagine__box .info__box, #videoZone .more__btn, #videoZone .program__block, #videoZone .program__block .program__box, #videoZone .program__block .imagine, #videoZone .program__block .program__tag__box, #videoZone .program__block .program__title, #videoZone .program__block .program__date__box, #videoZone .program__block .program__status__box, #videoZone .program__block .program__status__ele, #videoZone .program__block .more__btn, #videoZone .program__block.table__view, #videoZone .program__block .program__table .program__title__box, #videoZone .program__block .program__table .program__status__ele, #videoZone .top__intro__block, #videoZone .top__intro__block .top__intro__box, #videoZone .top__intro__block .intro__list__title, #videoZone .top__intro__block .intro__list__item, #videoZone .top__intro__block .intro__videos, #videoZone .top__intro__block .intro__video__list, #videoZone .top__intro__block .intro__video__list__item, #videoZone .top__intro__block .intro__title, #videoZone .top__intro__block .info__box, #videoZone .videotype__block, #videoZone .videomonth__block, #videoZone .side_info_block, #videoZone .side_info_block > .info_container, #videoZone .side_info_block > .info_container > .news, #videoZone .side_info_block > .info_container > .news > .list, #videoZone .side_info_block > .info_container > .news > .list > .item, #videoZone .side_info_block > .info_container > .news > .list > .item a, #videoZone .side_info_block > .info_container > .services, #videoZone .side_info_block > .info_container > .services > .list, #videoZone .side_info_block > .info_container > .services > .list > .item, #videoZone .side_info_block > .info_container > .services > .list > .item a, #videoZone .side_info_block > .info_container > .services > .list > .item .icon, #videoZone .side_info_block > .info_container > .services > .list > .item .title_box, #videoZone .side_info_block > .info_container > .services > .list > .item .arrow, #videoZone .side_info_block > .info_container > .links > .list > .item a, #videoZone .main_content_block, #videoZone .main_content_block .title_block, #videoZone .recommend_pager_block, #videoZone .recommend_pager_block .pager, #videoZone .recommend_pager_block .pager.type_pagination, #videoZone .recommend_pager_block .pager.type_pagination > .item > a, #videoZone .recommend_article_block, #videoZone .pager_block, #videoZone .more_block, .checker, .checker .checkmark, .area .container.type_detail, #examList .side_info_block, #examList .side_info_block > .info_container, #examList .side_info_block > .info_container > .news, #examList .side_info_block > .info_container > .news > .list, #examList .side_info_block > .info_container > .news > .list > .item, #examList .side_info_block > .info_container > .news > .list > .item a, #examList .side_info_block > .info_container > .services, #examList .side_info_block > .info_container > .services > .list, #examList .side_info_block > .info_container > .services > .list > .item, #examList .side_info_block > .info_container > .services > .list > .item a, #examList .side_info_block > .info_container > .services > .list > .item .icon, #examList .side_info_block > .info_container > .services > .list > .item .title_box, #examList .side_info_block > .info_container > .services > .list > .item .arrow, #examList .side_info_block > .info_container > .links > .list > .item a, #examList .main_content_block, #examList .main_content_block .control_block > .tab_list, #examList .main_content_block .control_block > .tab_list > .tab, #examList .main_content_block .control_block > .tab_list > .tab > .item, #videoZone .top_title, #videoZone .banner_block, #videoZone .banner_block .content .classification .icon_box, #videoZone .info_block, #videoZone .info_block > .box .article_block_list .article_box, #videoZone .info_block > .box .article_block_list .article_box .item, #videoZone .course_intro .timeline .timeline_block .tabs .tab_box, #videoZone .course_intro .course_information > .content_table.type_btns, #videoZone .course_intro .course_information .course_swiper_block .course_swiper .swiper-slide .course_image, #videoZone .course_intro .course_information .course_swiper_block .course_swiper .swiper-slide .more_block, #videoZone .valuable_block, #videoZone .valuable_block > .features, #videoZone .imagine_exp .experience_box .img_block .avatar_block .img_box, #videoZone .video_intro > .video_box > .video_block .video > .img_box, #videoZone .form_block > .form .submit_block {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -32,6 +32,19 @@
 .img_box img {
   max-width: 100%;
   max-height: 100%;
+}
+
+body {
+  position: relative;
+}
+
+@media all and (max-width: 861px) {
+  body:after {
+    content: '';
+    height: 100px;
+    display: inline-block;
+    width: 100%;
+  }
 }
 
 .bread_crumb_block {
@@ -135,7 +148,7 @@
   position: relative;
   width: 100%;
   height: 100%;
-  z-index: 10;
+  z-index: 999;
   overflow: visible;
   pointer-events: none;
 }
@@ -189,6 +202,12 @@
   }
 }
 
+@media all and (max-width: 1301px) {
+  .area .container.type__top__menu {
+    padding: 10px;
+  }
+}
+
 .area .container.type_nav {
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -233,6 +252,8 @@
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
     padding: 0px 10px 0px;
+    -webkit-box-shadow: 0 0 0 transparent;
+            box-shadow: 0 0 0 transparent;
   }
 }
 
@@ -250,13 +271,36 @@
   }
 }
 
+.nav_mask {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: inline-block;
+  float: left;
+  box-sizing: border-box;
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
+  background-color: #00000083;
+  opacity: .7;
+  z-index: 990;
+  top: -1px;
+  cursor: pointer;
+  display: none;
+}
+
+@media all and (max-width: 601px) {
+  .nav_mask {
+    top: 41px;
+  }
+}
+
 #videoZone .el-container {
   height: 100%;
-  position: relative;
 }
 
 #videoZone {
   font-family: 'Century Gothic','Source Sans Pro' , 'Muli' ,'微軟正黑體','Arial', '新細明體';
+  position: relative;
 }
 
 #videoZone .subject_block {
@@ -271,7 +315,14 @@
 
 @media all and (max-width: 861px) {
   #videoZone .subject_block {
-    display: none;
+    background-color: #3d7901;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 0 0px;
+    left: 0;
+    right: 0;
   }
 }
 
@@ -346,6 +397,9 @@
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-flex-wrap: nowrap;
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
   float: left;
@@ -364,13 +418,21 @@
   padding: 0  6px 0 0;
 }
 
+#videoZone .video__search__block .search__submite__name {
+  white-space: nowrap;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  max-height: 40px;
+}
+
 @media all and (max-width: 801px) {
   #videoZone .video__search__block .search__submite__name {
     display: none;
   }
 }
 
-#videoZone .subject_conainer {
+#videoZone .subject_container {
   -webkit-box-pack: start;
   -webkit-justify-content: flex-start;
       -ms-flex-pack: start;
@@ -379,20 +441,31 @@
   width: 100%;
   max-width: 360px;
   padding: 10px 0 18px;
-  overflow: hidden;
   -webkit-flex-wrap: nowrap;
       -ms-flex-wrap: nowrap;
           flex-wrap: nowrap;
 }
 
+@media all and (max-width: 861px) {
+  #videoZone .subject_container {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0 auto;
+    padding: 6px 0 6px;
+    max-width: 260px;
+  }
+}
+
 @media all and (max-width: 601px) {
-  #videoZone .subject_conainer {
+  #videoZone .subject_container {
     padding: 5px 0;
     overflow: visible;
   }
 }
 
-#videoZone .subject_conainer .subject_item {
+#videoZone .subject_container .subject_item {
   -webkit-box-pack: center;
   -webkit-justify-content: center;
       -ms-flex-pack: center;
@@ -411,7 +484,15 @@
   transition: 0.2s all ease-out;
 }
 
-#videoZone .subject_conainer .subject_item.openable:after {
+@media all and (max-width: 861px) {
+  #videoZone .subject_container .subject_item {
+    background-color: transparent;
+    width: 70px;
+    margin: 0 8px 0;
+  }
+}
+
+#videoZone .subject_container .subject_item.openable:after {
   content: '';
   right: 0;
   margin-right: auto;
@@ -427,31 +508,74 @@
   border-color: #fff transparent transparent transparent;
 }
 
-#videoZone .subject_conainer .subject_item.openable.unclickable {
+@media all and (max-width: 861px) {
+  #videoZone .subject_container .subject_item.openable:after {
+    border-width: 6px 6px 8px 6px;
+    border-color: transparent transparent #ffffff transparent;
+    top: 2px;
+  }
+}
+
+#videoZone .subject_container .subject_item.openable.unclickable {
   pointer-events: none;
 }
 
-#videoZone .subject_conainer .subject_item.closeable {
+#videoZone .subject_container .subject_item.closeable {
   background-color: #f29001;
 }
 
-#videoZone .subject_conainer .subject_item.openable.active:after {
+#videoZone .subject_container .subject_item.openable.active:after {
   bottom: 5px;
   border-width: 6px 6px 8px 6px;
   border-color: transparent transparent #fff  transparent;
 }
 
-#videoZone .subject_conainer .subject_item.thispage {
-  -webkit-box-shadow: 8px 8px 8px rgba(36, 36, 36, 0.384);
-          box-shadow: 8px 8px 8px rgba(36, 36, 36, 0.384);
+#videoZone .subject_container .subject_item.thispage {
   background: #f29001;
 }
 
-#videoZone .subject_conainer .subject_item:hover {
+#videoZone .subject_container .subject_item.thispage:after {
+  content: '';
+  right: 0;
+  margin-right: auto;
+  left: 0;
+  margin-left: auto;
+  bottom: -30px;
+  position: absolute;
+  display: inline-block;
+  border: solid #ffffff;
+  width: 0;
+  height: 0px;
+  border-width: 10px 12px 16px 12px;
+  border-color: transparent transparent #ffffff transparent;
+}
+
+@media all and (max-width: 861px) {
+  #videoZone .subject_container .subject_item.thispage:after {
+    display: none;
+  }
+}
+
+@media all and (max-width: 861px) {
+  #videoZone .subject_container .subject_item.thispage {
+    -webkit-box-shadow: 0px 6px 12px;
+            box-shadow: 0px 6px 12px;
+    -webkit-transform: translate(0px, -10px);
+        -ms-transform: translate(0px, -10px);
+            transform: translate(0px, -10px);
+    background: #ffffff;
+    color: #33333362;
+  }
+  #videoZone .subject_container .subject_item.thispage i {
+    color: #888888;
+  }
+}
+
+#videoZone .subject_container .subject_item:hover {
   background: #f29001;
 }
 
-#videoZone .subject_conainer .subject_item i {
+#videoZone .subject_container .subject_item i {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   display: inline-block;
@@ -463,7 +587,7 @@
   max-height: 0px;
 }
 
-#videoZone .subject_conainer .subject_item .name {
+#videoZone .subject_container .subject_item .name {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   display: inline-block;
@@ -477,7 +601,7 @@
   line-height: 15px;
 }
 
-#videoZone .subject_conainer .subject_item .deco {
+#videoZone .subject_container .subject_item .deco {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   display: inline-block;
@@ -489,14 +613,14 @@
   background-color: #ff0000;
 }
 
-#videoZone .subject_conainer.type_mob {
+#videoZone .subject_container.type_mob {
   width: 100%;
   max-width: unset;
   display: none;
 }
 
 @media all and (max-width: 601px) {
-  #videoZone .subject_conainer.type_mob {
+  #videoZone .subject_container.type_mob {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -504,7 +628,7 @@
   }
 }
 
-#videoZone .subject_conainer.type_mob .subject_item {
+#videoZone .subject_container.type_mob .subject_item {
   -webkit-box-pack: center;
   -webkit-justify-content: center;
       -ms-flex-pack: center;
@@ -517,11 +641,11 @@
   padding: 10px  4px;
 }
 
-#videoZone .subject_conainer.type_mob .subject_item:hover {
+#videoZone .subject_container.type_mob .subject_item:hover {
   opacity: .8;
 }
 
-#videoZone .subject_conainer.type_mob .subject_item i {
+#videoZone .subject_container.type_mob .subject_item i {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   display: inline-block;
@@ -532,7 +656,7 @@
   padding: 0;
 }
 
-#videoZone .subject_conainer.type_mob .subject_item .name {
+#videoZone .subject_container.type_mob .subject_item .name {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   display: inline-block;
@@ -545,7 +669,7 @@
   letter-spacing: -1px;
 }
 
-#videoZone .subject_conainer.type_fixed {
+#videoZone .subject_container.type_fixed {
   -webkit-box-pack: start;
   -webkit-justify-content: flex-start;
       -ms-flex-pack: start;
@@ -556,12 +680,12 @@
 }
 
 @media all and (max-width: 601px) {
-  #videoZone .subject_conainer.type_fixed {
+  #videoZone .subject_container.type_fixed {
     display: none;
   }
 }
 
-#videoZone .subject_conainer.type_fixed .subject_item {
+#videoZone .subject_container.type_fixed .subject_item {
   -webkit-box-pack: center;
   -webkit-justify-content: center;
       -ms-flex-pack: center;
@@ -578,7 +702,7 @@
   transition: 0.2s all ease-out;
 }
 
-#videoZone .subject_conainer.type_fixed .subject_item:hover {
+#videoZone .subject_container.type_fixed .subject_item:hover {
   background: #f7a349;
 }
 
@@ -599,6 +723,12 @@
   display: none;
 }
 
+@media all and (max-width: 1301px) {
+  #videoZone .subject_nav {
+    top: 43px;
+  }
+}
+
 #videoZone .subject_nav .subject_nav_container {
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -612,7 +742,15 @@
   width: 100%;
   background-color: #fff;
   position: relative;
-  z-index: 1;
+}
+
+@media all and (max-width: 861px) {
+  #videoZone .subject_nav .subject_nav_container {
+    position: fixed;
+    bottom: 100px;
+    overflow-y: scroll;
+    max-height: 300px;
+  }
 }
 
 #videoZone .subject_nav .subject_nav_container .subject_list_box {
@@ -631,9 +769,9 @@
   min-height: 280px;
 }
 
-@media all and (max-width: 1301px) {
+@media all and (max-width: 1381px) {
   #videoZone .subject_nav .subject_nav_container .subject_list_box {
-    max-width: 160px;
+    max-width: 155px;
     padding: 20px 5px 5px;
     min-height: unset;
   }
@@ -650,7 +788,7 @@
   color: #666;
 }
 
-@media all and (max-width: 1301px) {
+@media all and (max-width: 1381px) {
   #videoZone .subject_nav .subject_nav_container .subject_list_box > .title {
     font-size: 1em;
   }
@@ -678,7 +816,7 @@
   font-size: .9em;
 }
 
-@media all and (max-width: 1301px) {
+@media all and (max-width: 1381px) {
   #videoZone .subject_nav .subject_nav_container .subject_list_box > .list > .item {
     padding: 1px 1px 1px 0;
   }
@@ -719,7 +857,7 @@
   display: none;
 }
 
-@media all and (max-width: 1380px) {
+@media all and (max-width: 1381px) {
   #videoZone .subject_nav .subject_nav_container .subject_list_box::after {
     display: none;
   }
@@ -727,7 +865,7 @@
 
 @media all and (max-width: 781px) {
   #videoZone .subject_nav .subject_nav_container .subject_list_box {
-    padding: 20 5px;
+    padding: 20px 5px;
   }
 }
 
@@ -743,6 +881,7 @@
   padding: 8px;
   margin: 20px 10px;
   color: #fff;
+  box-sizing: border-box;
   -webkit-transition: 0.2s all ease-out;
   -o-transition: 0.2s all ease-out;
   transition: 0.2s all ease-out;
@@ -758,22 +897,6 @@
   -webkit-transition-duration: .1s;
        -o-transition-duration: .1s;
           transition-duration: .1s;
-}
-
-#videoZone .subject_nav .nav_mask {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  display: inline-block;
-  float: left;
-  box-sizing: border-box;
-  position: absolute;
-  width: 100%;
-  min-height: calc(100vh + 60px);
-  background-color: #000;
-  opacity: .7;
-  z-index: 0;
-  top: 0px;
-  cursor: pointer;
 }
 
 #videoZone .sorter__block {
@@ -957,7 +1080,7 @@
   color: #6c9911;
 }
 
-#videoZone .imagine__block .more__btn {
+#videoZone .more__btn {
   -webkit-box-pack: center;
   -webkit-justify-content: center;
       -ms-flex-pack: center;
@@ -981,14 +1104,14 @@
           user-select: none;
 }
 
-#videoZone .imagine__block .more__btn:hover {
+#videoZone .more__btn:hover {
   opacity: .8;
   -webkit-transition-duration: .1s;
        -o-transition-duration: .1s;
           transition-duration: .1s;
 }
 
-#videoZone .imagine__block .more__btn i {
+#videoZone .more__btn i {
   padding: 0 0 0 10px;
 }
 
@@ -1501,34 +1624,50 @@
   font-size: 1.4em;
   font-weight: 400;
   width: 100%;
-  max-width: 150px;
+  max-width: 120px;
   text-align: center;
   border-width: 0 0 1px 0;
   border-style: solid;
   border-color: #999999;
-  padding: 15px;
+  padding: 0  15px 15px;
   margin: 0 0 10px 0;
 }
 
 #videoZone .top__intro__block .intro__list__item {
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 100%;
   max-width: 250px;
   padding: 8px 0;
+  -webkit-transition: 0.2s all ease-out;
+  -o-transition: 0.2s all ease-out;
+  transition: 0.2s all ease-out;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+#videoZone .top__intro__block .intro__list__item:hover {
+  opacity: .8;
+  -webkit-transition-duration: .1s;
+       -o-transition-duration: .1s;
+          transition-duration: .1s;
 }
 
 #videoZone .top__intro__block .intro__list__item__imagine {
   width: 100%;
-  max-width: 120px;
+  max-width: 60px;
 }
 
 #videoZone .top__intro__block .intro__list__item__name {
   width: 100%;
   max-width: 40px;
   font-size: 1.2em;
+  padding: 0 0 0 10px;
 }
 
 #videoZone .top__intro__block .intro__videos {
@@ -1575,7 +1714,7 @@
 @media all and (max-width: 1101px) {
   #videoZone .top__intro__block .intro__video__box {
     max-width: unset;
-    height: 36vw;
+    height: 53vw;
   }
 }
 
@@ -1630,7 +1769,7 @@
 
 @media all and (max-width: 1101px) {
   #videoZone .top__intro__block .intro__video__list__item:not(:last-child) {
-    margin: 0 0 0 0;
+    margin: 0 8px 0 0;
   }
 }
 
@@ -1640,6 +1779,12 @@
       -ms-flex-pack: end;
           justify-content: flex-end;
   width: 100%;
+}
+
+@media all and (max-width: 1301px) {
+  #videoZone .top__intro__block .intro__title {
+    padding: 10px 0;
+  }
 }
 
 #videoZone .top__intro__block .intro__title__box {
@@ -1656,6 +1801,7 @@
 @media all and (max-width: 1301px) {
   #videoZone .top__intro__block .intro__title__box {
     max-width: 100%;
+    padding: 0 0 0 5px;
   }
 }
 
@@ -1696,6 +1842,165 @@
 
 #videoZone .top__intro__block .info__date i {
   color: #6c9911;
+}
+
+#videoZone .videotype__block {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  margin: 35px 0 18px 0;
+}
+
+#videoZone .videotype__block strong {
+  color: #f29001;
+}
+
+@media all and (max-width: 861px) {
+  #videoZone .videotype__block {
+    padding: 0 0 0 12px;
+  }
+}
+
+#videoZone .videotype__block .videotype__title {
+  padding: 0 0 0 96px;
+  position: relative;
+  font-size: 1.4em;
+  letter-spacing: 6px;
+}
+
+@media all and (max-width: 861px) {
+  #videoZone .videotype__block .videotype__title {
+    padding: 0 0 0 0;
+    text-align: center;
+  }
+}
+
+#videoZone .videotype__block .videotype__title:before {
+  width: 100px;
+  height: 1px;
+  left: -20px;
+}
+
+#videoZone .videotype__block .videotype__title:after {
+  width: 1px;
+  height: 30px;
+  left: 80px;
+}
+
+#videoZone .videotype__block .videotype__title:before, #videoZone .videotype__block .videotype__title:after {
+  content: '';
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: inline-block;
+  float: left;
+  position: absolute;
+  top: 0;
+  margin-top: auto;
+  bottom: 0;
+  margin-bottom: auto;
+  background-color: #f29001;
+}
+
+@media all and (max-width: 861px) {
+  #videoZone .videotype__block .videotype__title:before, #videoZone .videotype__block .videotype__title:after {
+    display: none;
+  }
+}
+
+#videoZone .videotype__block .videotype__more {
+  padding: 0 10px 0 0;
+  font-size: .9em;
+}
+
+#videoZone .videotype__block .videotype__more__btn {
+  position: relative;
+  padding: 4px 20px;
+  border: 1px solid #999999;
+  font-weight: 600;
+}
+
+#videoZone .videotype__block .videotype__more__btn:after {
+  content: '';
+  position: absolute;
+  background-color: #999999;
+  top: 0;
+  margin-top: auto;
+  bottom: 0;
+  margin-bottom: auto;
+  width: 30px;
+  height: 1px;
+  right: -20px;
+}
+
+#videoZone .videomonth__block {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  margin: 60px 0 20px 0;
+}
+
+#videoZone .videomonth__block strong {
+  color: #f29001;
+}
+
+@media all and (max-width: 861px) {
+  #videoZone .videomonth__block {
+    padding: 0 0 0 12px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+#videoZone .videomonth__block .videomonth__title {
+  padding: 0 0 0 96px;
+  position: relative;
+  font-size: 1.4em;
+  letter-spacing: 6px;
+}
+
+@media all and (max-width: 861px) {
+  #videoZone .videomonth__block .videomonth__title {
+    padding: 0 0 0 0;
+    text-align: center;
+  }
+}
+
+#videoZone .videomonth__block .videomonth__title:before {
+  width: 100px;
+  height: 1px;
+  left: -20px;
+}
+
+#videoZone .videomonth__block .videomonth__title:after {
+  width: 1px;
+  height: 30px;
+  left: 80px;
+}
+
+#videoZone .videomonth__block .videomonth__title:before, #videoZone .videomonth__block .videomonth__title:after {
+  content: '';
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: inline-block;
+  float: left;
+  position: absolute;
+  top: 0;
+  margin-top: auto;
+  bottom: 0;
+  margin-bottom: auto;
+  background-color: #f29001;
+}
+
+@media all and (max-width: 861px) {
+  #videoZone .videomonth__block .videomonth__title:before, #videoZone .videomonth__block .videomonth__title:after {
+    display: none;
+  }
 }
 
 #videoZone .side_info_block {
