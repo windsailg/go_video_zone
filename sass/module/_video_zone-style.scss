@@ -189,12 +189,16 @@ body{
    min-height: 100%;
    background-color: #00000083;
    opacity: .7;
-   z-index: 990;
+   z-index: 11;
    top: -1px;
    cursor: pointer;
    display: none;;
-   @include MCW(601px) {
-      top: 41px;
+   margin: 265px 0 -265px 0;
+   @include MCW(1301px) {
+      margin: 230px 0 -230px 0;
+   }
+   @include MCW(861px) {
+      margin: 0px;
    }
 }
 
@@ -213,6 +217,8 @@ body{
       width:400px;
       float: left;
       padding: 0 15px;
+      position: relative;
+      z-index: 10;
       @include MCW(861px) {
          background-color: #3d7901;
          position: fixed;
@@ -227,6 +233,7 @@ body{
          padding: 0 0px;
       }
    }
+
    .video__search__block {
       @include fxc;
       flex-wrap: nowrap;
@@ -354,7 +361,7 @@ body{
             }
          }
          &.thispage{
-            // box-shadow: 8px 8px 8px #000000b7;
+            box-shadow: 8px 8px 8px #00000049;
             background:#f29001;
             &:after {
                content: '';
@@ -1083,7 +1090,6 @@ body{
          @include fxfs;
          box-sizing: border-box;
          padding:  0 0 0 15px;
-         height: 450px;
          width: 100%;
          max-width: calc(100% - 180px);
          @include MCW(1301px) {
@@ -1100,6 +1106,7 @@ body{
          width: 100%;
          max-width: 840px;
          height: 100%;
+         max-height: 450px;
          iframe, 
          video{
             width: 100%;
@@ -1144,14 +1151,14 @@ body{
       //影片標題詳細資訊
       .intro__title{
          @include fxfe;
-         width: 100%;;
+         width: 100%;
          @include MCW(1301px) {
             padding: 10px 0;
          }
       }
       .intro__title__box{
          @include ibl;
-         max-width: calc(100% - 180px );
+         // max-width: calc(100% - 180px );
          width: 100%;
          padding: 0 0 0 15px;
          font-size: 1.3em;
@@ -1302,11 +1309,66 @@ body{
          }
       }
    }
-
+   //直播倒數
+   .live__counter__block{
+      @include fxc;
+      float: left;
+      color: #ffffff;
+      background-color: #d01212;
+      width: 100%;
+      margin: 20px 0 10px;
+      padding: 20px 0;
+      .live__counter__title {
+         width: auto;
+         position: relative;
+         font-weight: 400;
+         font-size: 1.3em;
+         letter-spacing: 7px;;
+         &:before,&:after{
+            content:'';
+            @include ib;
+            @include atb;
+            position: absolute;
+            width: 25px;
+            height: 1px;
+            background-color: #ffffff;
+         }
+         &:before{
+            left: -60px;
+         }
+         &:after {
+            right: -60px;
+         }
+      }
+      .live__counter__timer{
+         @include fxc;
+         width: 100%;
+         padding: 8px 0 0;
+      }
+      .live__counter__date__box{
+         @include fxc;
+         align-items: flex-end;
+         width: auto;
+         padding:  0 10px 0;
+      }
+      .live__counter__date__num{
+         font-size: 2.3em;
+         font-family: 'Century Gothic';
+         font-weight: 200;
+         letter-spacing: 5px;
+         color: #ffffffe1;
+      }
+      .live__counter__date__text{
+         font-size: .9em;
+         padding: 0 15px 1px 15px;
+      }
+   }
+   
    //直播列表 
    .live__top__block {
       @include fxb;
       width: 100%;
+      align-items: flex-start;
       .live__top__box {
          @include fxc;
          padding: 5px 0;
@@ -1315,12 +1377,12 @@ body{
       //各種影片區塊
       .intro__videos {
          @include fxfs;
+         align-items: flex-start;
          box-sizing: border-box;
          padding: 0 0 0 15px;
-         height: 450px;
+         height: auto;
          width: 100%;
-         max-width: calc(100% - 180px);
-
+         max-width: 930px;
          @include MCW(1301px) {
             max-width: 100%;
             justify-content: center;
@@ -1334,20 +1396,13 @@ body{
       //影片列表區塊
       .intro__video__box {
          width: 100%;
-         max-width: 840px;
-         height: 100%;
-
-         iframe,
-         video {
-            width: 100%;
-            height: 100%;
-         }
-
+         max-width: 930px;
          @include MCW(1101px) {
             max-width: unset;
             height: 53vw;
          }
       }
+
       .intro__video__title__box{
          @include fxfs;
          width: 100%;
@@ -1367,24 +1422,141 @@ body{
          font-size: 1.3em;
          letter-spacing: 3px;
       }
-      .intro__video__list {
-         @include fxfs;
+
+      .intro__video__main {
+         width: 100%;
+         height: 535px;
+         
+         @include MCW(1101px) {
+            max-width: unset;
+            height: 53vw;
+         }
+         iframe,
+         video {
+            width: 100%;
+            height: 100%;
+         }
+      }
+
+      .intro__form__list {
+         @include fxc;
          padding: 0 0 0 15px;
          width: 100%;
-         max-width: calc(100% - 840px);
-
-         @include MCW(1301px) {}
-
-         @include MCW(1101px) {
+         max-width: calc(100% - 930px);
+         @include MCW(1301px) {
             max-width: unset;
             padding: 8px 0;
             justify-content: space-between;
-            flex-wrap: nowrap;
          }
-
+      }
+      .intro__form__list__title__box {
+         @include fxc;
+         height: 100%;
+         min-height: 60px;
+         @include MCW(1301px) {
+            width: 100%;
+         }
+      }
+      .intro__form__list__title__box__title{
+         @include fxc;
+         color: #ff5a02;
+         font-size: 1.6em;
+         letter-spacing: 14px;
+      }
+      .intro__form__list__sub {
+         @include MCW(1301px) {
+            width: 100%;
+            text-align: center;
+         }
       }
 
-      .intro__video__list__item {
+      .intro__form__inputer{
+         @include fxc;
+         width: 100%;
+         padding: 12px;
+         @include MCW(1301px) {
+            max-width:25%;
+            padding: 5px;
+            .inputer {
+               padding: 10px 0;
+            }
+         }
+         @include MCW(861px) {
+            max-width: 50%;
+            .inputer {
+               padding: 5px 0;
+            }
+         }
+         @include MCW(481px) {
+            max-width: unset;
+            padding: 2px 5px;
+            .inputer {
+               padding: 2px 0;
+            }
+         }
+         .inputer{
+            font-size:1em;
+            width: 100%;
+            padding: 20px 0;
+            border-width: 0 0 1px 0;
+            &:focus{
+               box-shadow: unset;;
+            }
+            @include MCW(1301px) {
+               padding: 10px 0;
+            }
+            @include MCW(861px) {
+               padding: 5px 0;
+            }
+            @include MCW(481px) {
+               padding: 2px 0;
+            }
+         }
+         .selecter{
+            font-size:1.1em;
+            color: #999999;
+            width: 100%;
+            height: 60px;
+            border-width: 0 0 1px 0;
+            margin: 0;
+            outline: none;;
+            @include MCW(1301px) {
+               height: 38px;
+            }
+
+            @include MCW(861px) {
+               height: unset;
+               padding: 0px 0;
+            }
+
+            @include MCW(481px) {
+               height: unset;
+            }
+         }
+      }
+      .intro__form__checker{
+         @include fxfs;
+         padding: 40px 20px;
+         align-items: flex-start;
+         width: 100%;
+         @include MCW(1301px) {
+            padding: 10px 0 10px 5px;
+         }
+         .checkmark{
+            margin:3px  6px 0 0;
+         }
+         .text{
+            width: calc(100% - 30px);
+            font-size: .9em;
+            @include MCW(1301px) {
+               font-size: .8em;
+            }
+         }
+         a{
+            text-decoration: underline;
+         }
+      }
+      .intro__form__list__item {
          @include fxc;
          width: 100%;
          ;
@@ -1406,45 +1578,50 @@ body{
 
       //影片標題詳細資訊
       .intro__title {
-         @include fxfe;
+         @include fxfs;
          width: 100%;
-         ;
-
-         @include MCW(1301px) {
-            padding: 10px 0;
-         }
+         padding: 10px 0;
+         width: 100%;
+         max-width: 945px;
       }
 
       .intro__title__box {
          @include ibl;
-         max-width: calc(100% - 180px);
          width: 100%;
-         padding: 0 0 0 15px;
+         padding: 10px 0 10px 15px;
          font-size: 1.3em;
-
          @include MCW(1301px) {
             max-width: 100%;
             padding: 0 0 0 5px;
          }
       }
-
+      .intro__title__text{
+         max-height: 54px;
+         width: 100%;
+         @include multi_nowrap();
+      }
       .intro__title__tag {
          @include ibl;
          width: 100%;
-         ;
-         color: #4289fc;
-         font-size: .9em;
-         padding: 0 6px 0 0;
+         a {
+            font-size: .9em;
+            padding: 0 6px 0 0;
+            color: #4289fc;
+         }
       }
 
       .info__box {
-         @include fxfs;
+         @include fxb;
          width: 100%;
+      }
+
+      .info__box__item{
+         @include fxb;
       }
 
       .info__element {
          width: auto;
-         padding: 3px 20px 3px 0px;
+         margin: 3px 20px 3px 0px;
          font-size: .8em;
 
          @include MCW(861px) {
@@ -1462,6 +1639,19 @@ body{
          i {
             color: #6c9911;
          }
+      }
+
+      .info__line{
+         padding: 3px 8px;
+         border: 1px solid #6c9911;
+         color: #6c9911;
+      }
+
+      .info__contect{
+         margin: 0 0 0 10px;
+         padding: 3px 8px;
+         border: 1px solid #4289fc;
+         color: #4289fc;
       }
    }
 
@@ -1720,6 +1910,7 @@ img{
 
 .selecter {
    @include ibl;
+   font-family: FontAwesome;
    margin: 10px 20px 10px 0;
    padding: 6px;
    border: 1px solid #aaa;
@@ -1750,5 +1941,35 @@ img{
    &:focus {
       border-color: $cgo_orange;
       box-shadow: 0px 0px 10px #f29001;
+   }
+}
+
+.type_button {
+   @include ibl;
+   background-color: $cgo_orange;
+   border-radius: 5px;
+   padding: 14px 40px;
+   box-shadow: 3px 3px 8px #ccc;
+   text-align: center;
+   letter-spacing: 2px;
+   color: #fff;
+   ;
+   transition: .1s ease-in-out;
+
+   &:hover {
+      opacity: .9;
+   }
+
+   &:active {
+      opacity: 1;
+      transform: translate(3px, 3px);
+      box-shadow: 1px 1px 2px #777;
+   }
+
+   &.style_gray {
+      box-shadow: 0px 0px 0px transparent;
+      background-color: #ccc;
+      color: #444;
+      ;
    }
 }
