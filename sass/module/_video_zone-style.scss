@@ -512,9 +512,9 @@ body{
          position:relative;
          @include MCW(861px) {
             position: fixed;
-            bottom: 100px;
+            bottom: 85px;
             overflow-y: scroll;;
-            max-height: 300px;
+            max-height: 330px;
          }
          .subject_list_box{
             @include ibl;
@@ -1813,14 +1813,17 @@ body{
 
 
    }
+
    //直播區域標籤
    .live__tab__block{
       @include fxfs;
+      box-sizing: border-box;
       width: 100%;
       padding: 0 40px ;
       margin: 15px 0 5px;
       @include MCW(1301px) {
          justify-content: center;
+         padding: 0 0px;
       }
       .live__tab__item{
          @include fxc;
@@ -1834,9 +1837,12 @@ body{
          user-select: none;
          @include hover;
          cursor: pointer;
-         border-width: 0 0 3px 0;
+         border-width: 0 0 5px 0;
          border-style: solid;
          border-color: transparent;
+         @include MCW(1301px) {
+            max-width: 40%;
+         }
          &.live__tab__item--active{
             font-weight: bold;
             border-color: $cgo_orange;
@@ -1844,6 +1850,17 @@ body{
       }
 
    }
+
+   //直播區選項卡
+   .live__content__block {
+      min-height: 100px;
+      @include fxc;
+      float: left;
+      width: 100%;
+   }
+
+
+
 
 }
 
