@@ -117,7 +117,7 @@ body{
       z-index: 1;
       overflow: visible;
       @include MCW(1301px) {
-         margin:30px 0 0px 0;
+         margin:10px 0 0px 0;
       }
    }
    &.type__video__zone {
@@ -166,8 +166,8 @@ body{
          align-items: flex-start;
          padding: 10px 0px 50px;
          @include MCW(1301px){
-            flex-direction: column-reverse;
-            padding: 0px 10px 0px;
+            flex-direction: column;
+            padding: 0px 0px 0px;
             box-shadow: 0 0 0 transparent;
          }
       }
@@ -303,7 +303,7 @@ body{
       @include MCW(861px) {
          justify-content: center;
          margin:  0 auto;
-         padding: 6px 0 6px;
+         padding: 0px 0 6px;
          max-width:260px;
       }
       @include MCW(601px) {
@@ -325,6 +325,7 @@ body{
          @include tst;
          @include MCW(861px) {
             background-color:transparent;
+            min-height: 80px;
             width: 70px;
             margin: 0 8px 0;
          }
@@ -399,6 +400,9 @@ body{
             padding:0px  10px 0;
             margin: 0;
             max-height: 0px;
+            @include MCW(861px) {
+               font-size: 28px;
+            }
          }
          .name{
             @include ibl;
@@ -437,9 +441,9 @@ body{
             color:$cgo_deepGreen;
             font-weight: bold;
             padding: 10px  4px;
-         &:hover{
-            opacity:.8;
-         }
+            &:hover{
+               opacity:.8;
+            }
             i{
                @include ibl;
                font-size: 1em;
@@ -479,9 +483,6 @@ body{
          @include tst;
          &:hover{
             background:$cgo_orange_fader; 
-         }
-         i{
-
          }
          .name{
 
@@ -744,7 +745,7 @@ body{
       background-color: #ddd;
       text-align: center;
       padding: 8px;
-      margin: 20px 10px;
+      margin: 20px 0px;
 
       color: #999999;
       font-weight: bold;
@@ -1320,6 +1321,9 @@ body{
       width: 100%;
       margin: 20px 0 10px;
       padding: 20px 0;
+      @include MCW(861px) {
+         padding: 10px 0;
+      }
       .live__counter__title {
          width: auto;
          position: relative;
@@ -1341,6 +1345,10 @@ body{
          &:after {
             right: -60px;
          }
+         @include MCW(861px) {
+            letter-spacing: 3px;
+            font-size: 1em;
+         }
       }
       .live__counter__timer{
          @include fxc;
@@ -1359,6 +1367,14 @@ body{
          font-weight: 200;
          letter-spacing: 5px;
          color: #ffffffe1;
+         @include MCW(1301px) {
+            letter-spacing: 2px;
+            font-size: 2em;
+         }
+         @include MCW(861px) {
+            letter-spacing: 0px;
+            font-size: 1em;
+         }
       }
       .live__counter__date__text{
          font-size: .9em;
@@ -1416,6 +1432,7 @@ body{
       .intro__video__title__imagine{
          @include fxc;
          width: 50px;
+         padding: 5px;
       }
       .intro__video__title__box__title{
          @include ibl;
@@ -1801,6 +1818,7 @@ body{
       @include fxfs;
       width: 100%;
       padding: 0 40px ;
+      margin: 15px 0 5px;
       @include MCW(1301px) {
          justify-content: center;
       }
