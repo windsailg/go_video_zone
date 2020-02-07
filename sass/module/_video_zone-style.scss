@@ -701,6 +701,7 @@ body{
             font-size: 1.2em;
             font-weight: bold;
             margin: 10px 0 0 0;
+
             @include MCW(861px) {
                font-size: .9em;
             }
@@ -708,6 +709,7 @@ body{
          .info__box {
             @include fxfe;
             width: 100%;
+            
          }
          .info__element {
 
@@ -731,7 +733,6 @@ body{
          }
 
       }
-
    }
 
    .more__btn {
@@ -1105,8 +1106,8 @@ body{
       .intro__video__box{
          width: 100%;
          max-width: 840px;
-         height: 100%;
-         max-height: 450px;
+         height: 450px;
+         // max-height: 450px;
          iframe, 
          video{
             width: 100%;
@@ -1469,7 +1470,6 @@ body{
             text-align: center;
          }
       }
-
       .intro__form__inputer{
          @include fxc;
          width: 100%;
@@ -1653,6 +1653,171 @@ body{
          border: 1px solid #4289fc;
          color: #4289fc;
       }
+   }
+
+   //直撥影片區塊
+   .live__imagine__block {
+      @include fxc;
+      width: auto;
+      margin: 20px 0 10px;
+      .live__imagine__box {
+         @include fxc;
+         float: left;
+         width: 100%;
+         max-width: 400px;
+         padding: 20px;
+         @include MCW(861px) {
+            padding: 8px;
+            // max-width: 50%;
+         }
+         .imagine {
+            @include fxc;
+            width: 100%;
+            max-width: 400px;
+            height: 250px;
+            max-height: 200px;
+            overflow: hidden;
+            background-position: center;
+            background-size: 30%;
+            background-repeat: no-repeat;
+            background-image: url(../../img/video_zone_img/loading_ring.svg);
+
+            @include MCW(861px) {
+               height: unset;
+               max-height: unset;
+            }
+         }
+
+         .block__title {
+            width: 100%;
+            font-size: 1.2em;
+            font-weight: bold;
+            margin: 10px 0 0 0;
+            @include multi_nowrap;
+            max-height: 54px;
+            @include MCW(861px) {
+               font-size: .9em;
+            }
+         }
+
+         .info__box {
+            @include fxb;
+            width: 100%;
+            padding: 6px 0;
+         }
+         .info__box__item{
+            max-width: 300px;
+         }
+         .info__live__tag {
+            @include fxc;
+            width: 100%;
+            max-width: 60px;
+            padding: 1px 5px;
+            border-radius: 3px;
+            letter-spacing: 3pxs;
+            background-color: #c4c4c4;
+            color: #ffffff;
+            &::before {
+               content: '';
+               @include fxc;
+               position: relative;
+               padding: 3px;
+               border-radius: 50px;
+               background-color: #ffffff;
+               margin: 2px 8px 2px 0px;
+            }
+            &.info__live__tag--active {
+               background-color: #ff0001;
+               &::before {
+                  background-color: #35ee2f;
+               }
+            }
+         }
+         .info__element__box{
+            @include fxfe;
+            width: 100%;
+            max-width: 280px;
+         }
+         .info__element {
+            font-size: .9em;
+            width: auto;
+            padding: 3px 0 3px 20px;
+            @include MCW(861px) {
+               font-size: .8em;
+            }
+         }
+
+         .info__viewed {
+            i {
+               color: #6c9911;
+            }
+         }
+
+         .info__date {
+            i {
+               color: #6c9911;
+            }
+         }
+         .program__tag__box {
+            @include fxfs;
+            float: left;
+            width: 100%;
+            margin: 3px 0;
+            padding: 12px 0 ;
+            border-width: 0 0 1px 0;
+            border-style: solid;
+            border: color#aaaaaa;
+         }
+         .program__tag__ele {
+            @include ibl;
+            @include hover;
+            width: auto;
+            padding: 3px 6px;
+            color: #ffffff;
+            font-size: .8em;
+            margin: 2px 5px 2px 0;
+
+            &.type__orange {
+               background-color: $cgo_orange;
+            }
+
+            &.type__blue {
+               background-color: #6BA8DB;
+            }
+         }
+      }
+
+
+   }
+   //直播區域標籤
+   .live__tab__block{
+      @include fxfs;
+      width: 100%;
+      padding: 0 40px ;
+      @include MCW(1301px) {
+         justify-content: center;
+      }
+      .live__tab__item{
+         @include fxc;
+         box-shadow: border-box;;
+         width: 100%;
+         max-width: 100px;
+         padding: 10px;
+         text-align: center;
+         letter-spacing: 4px;
+         margin:  0 15px 0;
+         user-select: none;
+         @include hover;
+         cursor: pointer;
+         border-width: 0 0 3px 0;
+         border-style: solid;
+         border-color: transparent;
+         &.live__tab__item--active{
+            font-weight: bold;
+            border-color: $cgo_orange;
+         }
+      }
+
    }
 
 }
