@@ -1821,9 +1821,12 @@ body {
   display: inline-block;
   float: left;
   width: 100%;
-  color: #4289fc;
+}
+
+#videoZone .top__intro__block .intro__title__tag a {
   font-size: .9em;
   padding: 0 6px 0 0;
+  color: #4289fc;
 }
 
 #videoZone .top__intro__block .info__box {

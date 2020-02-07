@@ -1171,9 +1171,11 @@ body{
       .intro__title__tag{
          @include ibl;
          width: 100%;;
-         color:#4289fc;
-         font-size: .9em;
-         padding:  0 6px 0 0;
+         a {
+            font-size: .9em;
+            padding: 0 6px 0 0;
+            color: #4289fc;
+         }
       }
       .info__box {
          @include fxfs;

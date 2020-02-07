@@ -678,23 +678,32 @@
   $(document).ready(function(){
 
 
-        $('#LiveInfoTabBlock .live__tab__item').click(function(){
+        // $('#LiveInfoTabBlock .live__tab__item').click(function(){
 
-            $('.live__tab__item').removeClass('live__tab__item--active');
-            $(this).addClass('live__tab__item--active');
-            $('.live_content__item').hide(0);
+        //     $('.live__tab__item').removeClass('live__tab__item--active');
+        //     $(this).addClass('live__tab__item--active');
+        //     $('.live_content__item').hide(0);
 
-            var ThisId = $(this).attr('id');
-            console.log(ThisId);
+        //     var ThisId = $(this).attr('id');
+        //     console.log(ThisId);
 
-            if(ThisId = 'ThemeSeries'){
-              $('#ThemeSeriesBlock').fadeIn(300);
-              console.log(ThisId);
-            }else if(ThisId = 'VideoInfo'){
-              console.log(ThisId);
-              $('#ThemeSeriesBlock').delay(200).fadeIn(150);
-            }
             
+        //     if(ThisId = 'ThemeSeries'){
+        //       $('#ThemeSeriesBlock').fadeIn(300);
+        //       console.log(ThisId);
+        //     }else if(ThisId = 'VideoInfo'){
+        //       console.log(ThisId);
+        //       $('#ThemeSeriesBlock').delay(200).fadeIn(150);
+        //     }
+            
+        // });
+
+
+        $('#ThemeSeries').on('click',function(){
+          $('.live__tab__item').removeClass('live__tab__item--active');
+          $(this).addClass('live__tab__item--active');
+
+
         });
 
     });
