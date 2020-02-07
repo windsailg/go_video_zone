@@ -11,15 +11,9 @@ $cgo_faderGreen:#9cd365;
 $cgo_textBlue:#5a5975;
 
 //Graduate SideBar Link
-$cgo_graduate_link_fadeGreen:#9cd365;
-$cgo_graduate_link_fadeAlmond:#caa389;
-$cgo_graduate_link_Orange:#ffac31;
-$cgo_graduate_link_Pink:#ffa791;
 
-$cgo_graduate_link_minor_Brown:#642719;
-$cgo_graduate_link_minor_Orange:#ffac31;
-$cgo_graduate_link_minor_fadeBrown:#705c57;
-$cgo_graduate_link_minor_fadeAlmond:#eeb58f;
+
+
 
 
 body{
@@ -1854,9 +1848,39 @@ body{
    //直播區選項卡
    .live__content__block {
       min-height: 100px;
-      @include fxc;
+      @include ibl;
       float: left;
       width: 100%;
+      .live__video__intro__container{
+         @include fxc;
+         width: 100%;
+      }
+      .live__video__intro__nothing{
+         @include fxc;
+         padding: 20px;
+         font-size: 2em;
+         width: 100%;
+         color: #bbbbbb;
+      }
+      .live__video__intro__box{
+         @include fxfs;
+         width: 100%;
+         padding: 0 15px;
+         max-width:40%;
+         @include MCW(861px) {
+            max-width: 100%;
+         }
+      }
+      .live__content__intro__title {
+         @include fxfs;
+         width: 100%;
+         font-size: 1.2em;
+         color: #6d9912;
+         padding: 15px 0 ;
+      }
+      .live__content__intro__text{
+         color: #383838;
+      }
    }
 
 

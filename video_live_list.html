@@ -640,8 +640,47 @@
 
             </div>
 
-            <div id="VideoInfoBlock" class="live__content__block live_content__item">
+            <div id="VideoInfoBlock" class="live__content__block live_content__item">
+              
+              <div class="live__video__intro__container">
+                
+                
+                <div class="live__video__intro__box">
+                  <div class="live__content__intro__title">
+                    詳細介紹
+                  </div>
+                  <div class="live__content__intro__text">
+                    環工技師 ：
+                    https://www.tkbgo.com.tw/product/toProductDetail.jsp?f_su
+                    <br>
+                    環工技師 ：
+                    https://www.tkbgo.com.tw/product/toProductDetail.jsp?f_su
+                    <br>
+                  </div>
+                </div>
 
+
+                <div class="live__video__intro__box">
+                  <div class="live__content__intro__title">
+                    相關課程
+                  </div>
+                  <div class="live__content__intro__text">
+                    環工技師 ：
+                    https://www.tkbgo.com.tw/product/toProductDetail.jsp?f_su
+                    <br>
+                    環工技師 ：
+                    https://www.tkbgo.com.tw/product/toProductDetail.jsp?f_su
+                    <br>
+                  </div>
+                </div>
+
+
+                <div class="live__video__intro__nothing">
+                  尚無任何資訊
+                </div>
+
+                              
+              </div>
 
             </div>
 
@@ -703,17 +742,19 @@
         // });
 
 
-  // $(document).ready(function(){
-  //   });
+  $(document).ready(function(){
 
-        var dftWidth = 520;
-        var dftHeight = 520;
-        function OpenWin(url){
-        var w=window.screen.width/2-(dftWidth/2);
-        var t=window.screen.height/2-(dftHeight/2)-35;
-        window.open(url,"","scrollbars=yes,toolbar=no,status=1,resizable=yes,directories=no,menubar=no,top="+t+",left="+w+",width="+dftWidth+",height="+dftHeight+"");
-        }
+          var dftWidth = 520;
+          var dftHeight = 520;
+          function OpenWin(url){
+            var w=window.screen.width/2-(dftWidth/2);
+            var t=window.screen.height/2-(dftHeight/2)-35;
+            window.open(url,"","scrollbars=yes,toolbar=no,status=1,resizable=yes,directories=no,menubar=no,top="+t+",left="+w+",width="+dftWidth+",height="+dftHeight+"");
+          }
 
+        
+        $('.live_content__item').hide(0);
+        $('#ThemeSeriesBlock').fadeIn(400);
         $('#ThemeSeries').on('click',function(){
           LiveInfoTabTrigger();
           $(this).addClass('live__tab__item--active');
@@ -727,9 +768,15 @@
         });
 
         function LiveInfoTabTrigger(){
-          $('.live__tab__item').removeClass('live__tab__item--active');
           $('.live_content__item').hide(0);
-        } 
+          $('.live__tab__item').removeClass('live__tab__item--active');
+        }
+
+    });
+
+
+
+
 
   </script>
 

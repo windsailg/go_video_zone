@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @import url(https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
-.bread_crumb_block .bread_crumb, .area.type_nav, .area.type_cover, .area .container.type_nav, .area .container.type_cover, .area .container.type__floater, #videoZone .subject_block, #videoZone .video__search__block, #videoZone .video__search__block .search__submiter, #videoZone .subject_container, #videoZone .subject_container .subject_item, #videoZone .subject_container.type_mob .subject_item, #videoZone .subject_container.type_fixed, #videoZone .subject_container.type_fixed .subject_item, #videoZone .subject_nav, #videoZone .subject_nav .subject_nav_container, #videoZone .sorter__block, #videoZone .sorter__block .sorter__box, #videoZone .sorter__block .sorter, #videoZone .sorter__block .sorter__style, #videoZone .sorter__block .sorter__style__ele, #videoZone .imagine__block, #videoZone .imagine__block .imagine__box, #videoZone .imagine__block .imagine__box .imagine, #videoZone .imagine__block .imagine__box .info__box, #videoZone .more__btn, #videoZone .program__block, #videoZone .program__block .program__box, #videoZone .program__block .imagine, #videoZone .program__block .program__tag__box, #videoZone .program__block .program__title, #videoZone .program__block .program__date__box, #videoZone .program__block .program__status__box, #videoZone .program__block .program__status__ele, #videoZone .program__block .more__btn, #videoZone .program__block.table__view, #videoZone .program__block .program__table .program__title__box, #videoZone .program__block .program__table .program__status__ele, #videoZone .top__intro__block, #videoZone .top__intro__block .top__intro__box, #videoZone .top__intro__block .intro__list__title, #videoZone .top__intro__block .intro__list__item, #videoZone .top__intro__block .intro__videos, #videoZone .top__intro__block .intro__video__list, #videoZone .top__intro__block .intro__video__list__item, #videoZone .top__intro__block .intro__title, #videoZone .top__intro__block .info__box, #videoZone .videotype__block, #videoZone .videomonth__block, #videoZone .live__counter__block, #videoZone .live__counter__block .live__counter__timer, #videoZone .live__counter__block .live__counter__date__box, #videoZone .live__top__block, #videoZone .live__top__block .live__top__box, #videoZone .live__top__block .intro__videos, #videoZone .live__top__block .intro__video__title__box, #videoZone .live__top__block .intro__video__title__imagine, #videoZone .live__top__block .intro__form__list, #videoZone .live__top__block .intro__form__list__title__box, #videoZone .live__top__block .intro__form__list__title__box__title, #videoZone .live__top__block .intro__form__inputer, #videoZone .live__top__block .intro__form__checker, #videoZone .live__top__block .intro__form__list__item, #videoZone .live__top__block .intro__title, #videoZone .live__top__block .info__box, #videoZone .live__top__block .info__box__item, #videoZone .live__imagine__block, #videoZone .live__imagine__block .live__imagine__box, #videoZone .live__imagine__block .live__imagine__box .imagine, #videoZone .live__imagine__block .live__imagine__box .info__box, #videoZone .live__imagine__block .live__imagine__box .info__live__tag, #videoZone .live__imagine__block .live__imagine__box .info__live__tag::before, #videoZone .live__imagine__block .live__imagine__box .info__element__box, #videoZone .live__imagine__block .live__imagine__box .program__tag__box, #videoZone .live__tab__block, #videoZone .live__tab__block .live__tab__item, #videoZone .live__content__block, .checker, .checker .checkmark, .area .container.type_detail, #examList .side_info_block, #examList .side_info_block > .info_container, #examList .side_info_block > .info_container > .news, #examList .side_info_block > .info_container > .news > .list, #examList .side_info_block > .info_container > .news > .list > .item, #examList .side_info_block > .info_container > .news > .list > .item a, #examList .side_info_block > .info_container > .services, #examList .side_info_block > .info_container > .services > .list, #examList .side_info_block > .info_container > .services > .list > .item, #examList .side_info_block > .info_container > .services > .list > .item a, #examList .side_info_block > .info_container > .services > .list > .item .icon, #examList .side_info_block > .info_container > .services > .list > .item .title_box, #examList .side_info_block > .info_container > .services > .list > .item .arrow, #examList .side_info_block > .info_container > .links > .list > .item a, #examList .main_content_block, #examList .main_content_block .control_block > .tab_list, #examList .main_content_block .control_block > .tab_list > .tab, #examList .main_content_block .control_block > .tab_list > .tab > .item, #videoZone .top_title, #videoZone .banner_block, #videoZone .banner_block .content .classification .icon_box, #videoZone .info_block, #videoZone .info_block > .box .article_block_list .article_box, #videoZone .info_block > .box .article_block_list .article_box .item, #videoZone .course_intro .timeline .timeline_block .tabs .tab_box, #videoZone .course_intro .course_information > .content_table.type_btns, #videoZone .course_intro .course_information .course_swiper_block .course_swiper .swiper-slide .course_image, #videoZone .course_intro .course_information .course_swiper_block .course_swiper .swiper-slide .more_block, #videoZone .valuable_block, #videoZone .valuable_block > .features, #videoZone .imagine_exp .experience_box .img_block .avatar_block .img_box, #videoZone .video_intro > .video_box > .video_block .video > .img_box, #videoZone .form_block > .form .submit_block {
+.bread_crumb_block .bread_crumb, .area.type_nav, .area.type_cover, .area .container.type_nav, .area .container.type_cover, .area .container.type__floater, #videoZone .subject_block, #videoZone .video__search__block, #videoZone .video__search__block .search__submiter, #videoZone .subject_container, #videoZone .subject_container .subject_item, #videoZone .subject_container.type_mob .subject_item, #videoZone .subject_container.type_fixed, #videoZone .subject_container.type_fixed .subject_item, #videoZone .subject_nav, #videoZone .subject_nav .subject_nav_container, #videoZone .sorter__block, #videoZone .sorter__block .sorter__box, #videoZone .sorter__block .sorter, #videoZone .sorter__block .sorter__style, #videoZone .sorter__block .sorter__style__ele, #videoZone .imagine__block, #videoZone .imagine__block .imagine__box, #videoZone .imagine__block .imagine__box .imagine, #videoZone .imagine__block .imagine__box .info__box, #videoZone .more__btn, #videoZone .program__block, #videoZone .program__block .program__box, #videoZone .program__block .imagine, #videoZone .program__block .program__tag__box, #videoZone .program__block .program__title, #videoZone .program__block .program__date__box, #videoZone .program__block .program__status__box, #videoZone .program__block .program__status__ele, #videoZone .program__block .more__btn, #videoZone .program__block.table__view, #videoZone .program__block .program__table .program__title__box, #videoZone .program__block .program__table .program__status__ele, #videoZone .top__intro__block, #videoZone .top__intro__block .top__intro__box, #videoZone .top__intro__block .intro__list__title, #videoZone .top__intro__block .intro__list__item, #videoZone .top__intro__block .intro__videos, #videoZone .top__intro__block .intro__video__list, #videoZone .top__intro__block .intro__video__list__item, #videoZone .top__intro__block .intro__title, #videoZone .top__intro__block .info__box, #videoZone .videotype__block, #videoZone .videomonth__block, #videoZone .live__counter__block, #videoZone .live__counter__block .live__counter__timer, #videoZone .live__counter__block .live__counter__date__box, #videoZone .live__top__block, #videoZone .live__top__block .live__top__box, #videoZone .live__top__block .intro__videos, #videoZone .live__top__block .intro__video__title__box, #videoZone .live__top__block .intro__video__title__imagine, #videoZone .live__top__block .intro__form__list, #videoZone .live__top__block .intro__form__list__title__box, #videoZone .live__top__block .intro__form__list__title__box__title, #videoZone .live__top__block .intro__form__inputer, #videoZone .live__top__block .intro__form__checker, #videoZone .live__top__block .intro__form__list__item, #videoZone .live__top__block .intro__title, #videoZone .live__top__block .info__box, #videoZone .live__top__block .info__box__item, #videoZone .live__imagine__block, #videoZone .live__imagine__block .live__imagine__box, #videoZone .live__imagine__block .live__imagine__box .imagine, #videoZone .live__imagine__block .live__imagine__box .info__box, #videoZone .live__imagine__block .live__imagine__box .info__live__tag, #videoZone .live__imagine__block .live__imagine__box .info__live__tag::before, #videoZone .live__imagine__block .live__imagine__box .info__element__box, #videoZone .live__imagine__block .live__imagine__box .program__tag__box, #videoZone .live__tab__block, #videoZone .live__tab__block .live__tab__item, #videoZone .live__content__block .live__video__intro__container, #videoZone .live__content__block .live__video__intro__nothing, #videoZone .live__content__block .live__video__intro__box, #videoZone .live__content__block .live__content__intro__title, .checker, .checker .checkmark, .area .container.type_detail, #examList .side_info_block, #examList .side_info_block > .info_container, #examList .side_info_block > .info_container > .news, #examList .side_info_block > .info_container > .news > .list, #examList .side_info_block > .info_container > .news > .list > .item, #examList .side_info_block > .info_container > .news > .list > .item a, #examList .side_info_block > .info_container > .services, #examList .side_info_block > .info_container > .services > .list, #examList .side_info_block > .info_container > .services > .list > .item, #examList .side_info_block > .info_container > .services > .list > .item a, #examList .side_info_block > .info_container > .services > .list > .item .icon, #examList .side_info_block > .info_container > .services > .list > .item .title_box, #examList .side_info_block > .info_container > .services > .list > .item .arrow, #examList .side_info_block > .info_container > .links > .list > .item a, #examList .main_content_block, #examList .main_content_block .control_block > .tab_list, #examList .main_content_block .control_block > .tab_list > .tab, #examList .main_content_block .control_block > .tab_list > .tab > .item, #videoZone .top_title, #videoZone .banner_block, #videoZone .banner_block .content .classification .icon_box, #videoZone .info_block, #videoZone .info_block > .box .article_block_list .article_box, #videoZone .info_block > .box .article_block_list .article_box .item, #videoZone .course_intro .timeline .timeline_block .tabs .tab_box, #videoZone .course_intro .course_information > .content_table.type_btns, #videoZone .course_intro .course_information .course_swiper_block .course_swiper .swiper-slide .course_image, #videoZone .course_intro .course_information .course_swiper_block .course_swiper .swiper-slide .more_block, #videoZone .valuable_block, #videoZone .valuable_block > .features, #videoZone .imagine_exp .experience_box .img_block .avatar_block .img_box, #videoZone .video_intro > .video_box > .video_block .video > .img_box, #videoZone .form_block > .form .submit_block {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2855,12 +2855,62 @@ body {
 
 #videoZone .live__content__block {
   min-height: 100px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: inline-block;
+  float: left;
+  float: left;
+  width: 100%;
+}
+
+#videoZone .live__content__block .live__video__intro__container {
   -webkit-box-pack: center;
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-  float: left;
   width: 100%;
+}
+
+#videoZone .live__content__block .live__video__intro__nothing {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px;
+  font-size: 2em;
+  width: 100%;
+  color: #bbbbbb;
+}
+
+#videoZone .live__content__block .live__video__intro__box {
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 100%;
+  padding: 0 15px;
+  max-width: 40%;
+}
+
+@media all and (max-width: 861px) {
+  #videoZone .live__content__block .live__video__intro__box {
+    max-width: 100%;
+  }
+}
+
+#videoZone .live__content__block .live__content__intro__title {
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 100%;
+  font-size: 1.2em;
+  color: #6d9912;
+  padding: 15px 0;
+}
+
+#videoZone .live__content__block .live__content__intro__text {
+  color: #383838;
 }
 
 ul {
