@@ -424,9 +424,14 @@
 
                           <div class="info__box__item">
 
-                            <a href="#" class="info__element info__line">
+                            <!-- <div class="info__element info__line" onclick="window.open('https://lineit.line.me/share/ui?url=https://windsailg.github.io/zone_video/video_list.html', '分享該影片',
+                              config='height=600,width=500');"> -->
+
+                            <div class="info__element info__line"
+                              onclick="OpenWin('https://lineit.line.me/share/ui?url=https://windsailg.github.io/zone_video/video_list.html');">
+                              
                               Line分享
-                            </a>
+                            </div>
                             <a href="#" class="info__element info__contect">
                               立即諮詢
                             </a>
@@ -489,12 +494,11 @@
             </div>
 
             <div id="LiveInfoTabBlock" class="live__tab__block">
-              <div id="ThemeSeries" class="live__tab__item live__tab__item--active">主題系列</div>
+              <div id="ThemeSeries" class="live__tab__item live__tab__item--active">主題系列</div>
               <div id="VideoInfo" class="live__tab__item">影片資訊</div>
             </div>
 
-
-            <div id="ThemeSeriesBlock" class="live_content__block live_content__item">
+            <div id="ThemeSeriesBlock" class="live_content__block live_content__item">
 
               <div class="live__imagine__block">
 
@@ -636,12 +640,10 @@
 
             </div>
 
-
             <div id="VideoInfoBlock" class="live_content__block live_content__item">
 
 
             </div>
-
 
           </div>
 
@@ -673,9 +675,11 @@
   <!-- OnlyThisPage JS -->
   <script src="js/video_zone/video_zone-common.js"></script>
 
+
+
   <script>
 
-  $(document).ready(function(){
+
 
 
         // $('#LiveInfoTabBlock .live__tab__item').click(function(){
@@ -684,29 +688,48 @@
         //     $(this).addClass('live__tab__item--active');
         //     $('.live_content__item').hide(0);
 
-        //     var ThisId = $(this).attr('id');
+        //     let ThisId = $(this).attr('id');
         //     console.log(ThisId);
 
             
-        //     if(ThisId = 'ThemeSeries'){
-        //       $('#ThemeSeriesBlock').fadeIn(300);
+        //     if(ThisId = 'ThemeSeries'){
+        //       $('#ThemeSeriesBlock').fadeIn(300);
         //       console.log(ThisId);
         //     }else if(ThisId = 'VideoInfo'){
         //       console.log(ThisId);
-        //       $('#ThemeSeriesBlock').delay(200).fadeIn(150);
+        //       $('#VideoInfoBlock').fadeIn(150);
         //     }
             
         // });
 
 
-        $('#ThemeSeries').on('click',function(){
-          $('.live__tab__item').removeClass('live__tab__item--active');
+  // $(document).ready(function(){
+  //   });
+
+        var dftWidth = 520;
+        var dftHeight = 520;
+        function OpenWin(url){
+        var w=window.screen.width/2-(dftWidth/2);
+        var t=window.screen.height/2-(dftHeight/2)-35;
+        window.open(url,"","scrollbars=yes,toolbar=no,status=1,resizable=yes,directories=no,menubar=no,top="+t+",left="+w+",width="+dftWidth+",height="+dftHeight+"");
+        }
+
+        $('#ThemeSeries').on('click',function(){
+          LiveInfoTabTrigger();
           $(this).addClass('live__tab__item--active');
-
-
+          $('#ThemeSeriesBlock').fadeIn(400);
         });
 
-    });
+        $('#VideoInfo').on('click',function(){
+          LiveInfoTabTrigger();
+          $(this).addClass('live__tab__item--active');
+          $('#VideoInfoBlock').fadeIn(400);
+        });
+
+        function LiveInfoTabTrigger(){
+          $('.live__tab__item').removeClass('live__tab__item--active');
+          $('.live_content__item').hide(0);
+        } 
 
   </script>
 

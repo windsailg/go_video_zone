@@ -712,7 +712,6 @@ body{
             
          }
          .info__element {
-
             width: auto;
             padding: 3px 0 3px 20px;
             @include MCW(861px) {
@@ -1561,16 +1560,13 @@ body{
       .intro__form__list__item {
          @include fxc;
          width: 100%;
-         ;
          max-width: 185px;
          height: 105px;
          @include hover;
-
          &:not(:last-child) {
             margin: 0 0 10px 0;
             ;
          }
-
          @include MCW(1101px) {
             &:not(:last-child) {
                margin: 0 8px 0 0;
@@ -1623,9 +1619,9 @@ body{
 
       .info__element {
          width: auto;
-         margin: 3px 20px 3px 0px;
+         margin: 3px 14px 3px 0px;
          font-size: .8em;
-
+         
          @include MCW(861px) {
             font-size: .8em;
          }
@@ -1647,10 +1643,19 @@ body{
          padding: 3px 8px;
          border: 1px solid #6c9911;
          color: #6c9911;
+         @include hover;
+         iframe{
+            display: nnoe!important;
+            padding: 3px 8px;
+            border: 1px solid #6c9911;
+            color: #6c9911;
+
+         }
       }
 
       .info__contect{
-         margin: 0 0 0 10px;
+         @include hover;
+         margin: 0 0 0 6px;
          padding: 3px 8px;
          border: 1px solid #4289fc;
          color: #4289fc;
@@ -1843,7 +1848,7 @@ ul{
 .lazy{
    @include bg-loading;
    background-color: #fff;
-   background-image: url("images/graduate-loading.svg");
+   background-image: url("../img/video_zone_img/loading_ring.svg");
    min-height: 100%;
 }
 
@@ -2139,4 +2144,9 @@ img{
       color: #444;
       ;
    }
+}
+
+
+.ver3{
+   background-color: transparent;
 }

@@ -2499,7 +2499,7 @@ body {
 
 #videoZone .live__top__block .info__element {
   width: auto;
-  margin: 3px 20px 3px 0px;
+  margin: 3px 14px 3px 0px;
   font-size: .8em;
 }
 
@@ -2521,13 +2521,42 @@ body {
   padding: 3px 8px;
   border: 1px solid #6c9911;
   color: #6c9911;
+  -webkit-transition: 0.2s all ease-out;
+  -o-transition: 0.2s all ease-out;
+  transition: 0.2s all ease-out;
+  cursor: pointer;
+}
+
+#videoZone .live__top__block .info__line:hover {
+  opacity: .8;
+  -webkit-transition-duration: .1s;
+       -o-transition-duration: .1s;
+          transition-duration: .1s;
+}
+
+#videoZone .live__top__block .info__line iframe {
+  display: nnoe !important;
+  padding: 3px 8px;
+  border: 1px solid #6c9911;
+  color: #6c9911;
 }
 
 #videoZone .live__top__block .info__contect {
-  margin: 0 0 0 10px;
+  -webkit-transition: 0.2s all ease-out;
+  -o-transition: 0.2s all ease-out;
+  transition: 0.2s all ease-out;
+  cursor: pointer;
+  margin: 0 0 0 6px;
   padding: 3px 8px;
   border: 1px solid #4289fc;
   color: #4289fc;
+}
+
+#videoZone .live__top__block .info__contect:hover {
+  opacity: .8;
+  -webkit-transition-duration: .1s;
+       -o-transition-duration: .1s;
+          transition-duration: .1s;
 }
 
 #videoZone .live__imagine__block {
@@ -2800,7 +2829,7 @@ ul {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #fff;
-  background-image: url("images/graduate-loading.svg");
+  background-image: url("../img/video_zone_img/loading_ring.svg");
   min-height: 100%;
 }
 
@@ -3200,6 +3229,10 @@ img {
           box-shadow: 0px 0px 0px transparent;
   background-color: #ccc;
   color: #444;
+}
+
+.ver3 {
+  background-color: transparent;
 }
 
 #examList .el-container {
