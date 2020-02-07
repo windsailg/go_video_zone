@@ -644,7 +644,7 @@
               
               <div class="live__video__intro__container">
                 
-                
+
                 <div class="live__video__intro__box">
                   <div class="live__content__intro__title">
                     詳細介紹
@@ -717,42 +717,10 @@
 
 
   <script>
+  // $(document).ready(function(){
 
+  //   });
 
-
-
-        // $('#LiveInfoTabBlock .live__tab__item').click(function(){
-
-        //     $('.live__tab__item').removeClass('live__tab__item--active');
-        //     $(this).addClass('live__tab__item--active');
-        //     $('.live_content__item').hide(0);
-
-        //     let ThisId = $(this).attr('id');
-        //     console.log(ThisId);
-
-            
-        //     if(ThisId = 'ThemeSeries'){
-        //       $('#ThemeSeriesBlock').fadeIn(300);
-        //       console.log(ThisId);
-        //     }else if(ThisId = 'VideoInfo'){
-        //       console.log(ThisId);
-        //       $('#VideoInfoBlock').fadeIn(150);
-        //     }
-            
-        // });
-
-
-  $(document).ready(function(){
-
-          var dftWidth = 520;
-          var dftHeight = 520;
-          function OpenWin(url){
-            var w=window.screen.width/2-(dftWidth/2);
-            var t=window.screen.height/2-(dftHeight/2)-35;
-            window.open(url,"","scrollbars=yes,toolbar=no,status=1,resizable=yes,directories=no,menubar=no,top="+t+",left="+w+",width="+dftWidth+",height="+dftHeight+"");
-          }
-
-        
         $('.live_content__item').hide(0);
         $('#ThemeSeriesBlock').fadeIn(400);
         $('#ThemeSeries').on('click',function(){
@@ -761,7 +729,7 @@
           $('#ThemeSeriesBlock').fadeIn(400);
         });
 
-        $('#VideoInfo').on('click',function(){
+          $('#VideoInfo').on('click',function(){
           LiveInfoTabTrigger();
           $(this).addClass('live__tab__item--active');
           $('#VideoInfoBlock').fadeIn(400);
@@ -772,11 +740,13 @@
           $('.live__tab__item').removeClass('live__tab__item--active');
         }
 
-    });
-
-
-
-
+        var dftWidth = 520;
+        var dftHeight = 520;
+        function OpenWin(url){
+          var w=window.screen.width/2-(dftWidth/2);
+          var t=window.screen.height/2-(dftHeight/2)-35;
+          window.open(url,"","scrollbars=yes,toolbar=no,status=1,resizable=yes,directories=no,menubar=no,top="+t+",left="+w+",width="+dftWidth+",height="+dftHeight+"");
+        }
 
   </script>
 
