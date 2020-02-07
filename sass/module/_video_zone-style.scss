@@ -1159,7 +1159,7 @@ body{
       }
       .intro__title__box{
          @include ibl;
-         // max-width: calc(100% - 180px );
+         max-width: calc(100% - 180px );
          width: 100%;
          padding: 0 0 0 15px;
          font-size: 1.3em;
