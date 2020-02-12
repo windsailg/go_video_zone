@@ -12,12 +12,12 @@ $cgo_textBlue:#5a5975;
 
 //Graduate SideBar Link
 
+// * {outline: 1px #ffffff solid;}
 
 
 
-*{
-   outline: 1px #ffffff solid;
-}
+
+
 body{
    position: relative;
    @include MCW(861px) {
