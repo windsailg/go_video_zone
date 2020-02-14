@@ -1856,11 +1856,20 @@ body{
       float: left;
       width: 100%;
       .live__video__intro__container{
-         @include fxc;
+         @include fxfs;
          width: 100%;
+      }
+      .live__video__intro__content {
+         @include ibl;
+         width: 100%;
+         padding: 20px 40px;
+         @include MCW(861px) {
+            padding:10px 8px;
+         }
       }
       .live__video__intro__nothing{
          @include fxc;
+         margin: 0 auto;
          padding: 20px;
          font-size: 2em;
          width: 100%;
