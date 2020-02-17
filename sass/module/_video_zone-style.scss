@@ -666,10 +666,11 @@ body{
    }
 
    .imagine__block{
-      @include fxc;
+      @include fxfs;
       align-items: flex-start;
       width: auto;
-      
+      width: 100%;
+      max-width: 1280px;
       .imagine__box{
          @include fxc;
          @include hover;
@@ -1682,7 +1683,7 @@ body{
 
    //直撥影片區塊
    .live__imagine__block {
-      @include fxc;
+      @include fxfs;
       align-items: flex-start;
       width: 100%;
       max-width: 1280px;
@@ -1864,6 +1865,7 @@ body{
       .live__video__intro__container{
          @include fxfs;
          width: 100%;
+         align-items: flex-start;
       }
       .live__video__intro__content {
          @include ibl;

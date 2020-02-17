@@ -1007,15 +1007,17 @@ body {
 }
 
 #videoZone .imagine__block {
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   -webkit-box-align: start;
   -webkit-align-items: flex-start;
       -ms-flex-align: start;
           align-items: flex-start;
   width: auto;
+  width: 100%;
+  max-width: 1280px;
 }
 
 #videoZone .imagine__block .imagine__box {
@@ -2624,10 +2626,10 @@ body {
 }
 
 #videoZone .live__imagine__block {
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   -webkit-box-align: start;
   -webkit-align-items: flex-start;
       -ms-flex-align: start;
@@ -2907,6 +2909,10 @@ body {
       -ms-flex-pack: start;
           justify-content: flex-start;
   width: 100%;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 #videoZone .live__content__block .live__video__intro__content {
