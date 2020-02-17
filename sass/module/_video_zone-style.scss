@@ -667,6 +667,7 @@ body{
 
    .imagine__block{
       @include fxc;
+      align-items: flex-start;
       width: auto;
       
       .imagine__box{
@@ -697,10 +698,13 @@ body{
             }
          }
          .block__title {
+            @include fxfs;
+            width: 100%;
             font-size: 1.2em;
             font-weight: bold;
             margin: 10px 0 0 0;
-
+            height: 48px;
+            @include multi_nowrap(2);
             @include MCW(861px) {
                font-size: .9em;
             }
@@ -1040,6 +1044,7 @@ body{
    .top__intro__block{
       @include fxb;
       width: 100%;
+      align-items: flex-start;
       .top__intro__box {
          @include fxc;
          padding: 5px 0;
@@ -1680,7 +1685,9 @@ body{
    //直撥影片區塊
    .live__imagine__block {
       @include fxc;
-      width: auto;
+      align-items: flex-start;
+      width: 100%;
+      max-width: 1280px;
       margin: 20px 0 10px;
       .live__imagine__box {
          @include fxc;
@@ -1716,7 +1723,7 @@ body{
             font-weight: bold;
             margin: 10px 0 0 0;
             @include multi_nowrap;
-            max-height: 54px;
+            height: 54px;
             @include MCW(861px) {
                font-size: .9em;
             }
