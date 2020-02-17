@@ -740,7 +740,7 @@ body{
    .more__btn {
       @include fxc;
       width: 100%;
-
+      max-width: 1180px;
       background-color: #eeeeee;
       border-radius: 5px;
 
@@ -1039,7 +1039,6 @@ body{
 
    }
 
-
    //影音專區頂部介紹區塊
    .top__intro__block{
       @include fxb;
@@ -1315,6 +1314,7 @@ body{
          }
       }
    }
+
    //直播倒數
    .live__counter__block{
       @include fxc;
@@ -1384,7 +1384,7 @@ body{
          padding: 0 15px 1px 15px;
       }
    }
-   
+
    //直播列表 
    .live__top__block {
       @include fxb;
@@ -1444,7 +1444,6 @@ body{
          font-size: 1.3em;
          letter-spacing: 3px;
       }
-
       .intro__video__main {
          width: 100%;
          height: 535px;
@@ -1459,7 +1458,6 @@ body{
             height: 100%;
          }
       }
-
       .intro__form__list {
          @include fxc;
          padding: 0 0 0 15px;
@@ -1557,7 +1555,7 @@ body{
       }
       .intro__form__checker{
          @include fxfs;
-         padding: 40px 20px;
+         padding: 10px 20px;
          align-items: flex-start;
          width: 100%;
          @include MCW(1301px) {
@@ -1859,7 +1857,8 @@ body{
    //直播區選項卡
    .live__content__block {
       min-height: 100px;
-      @include ibl;
+      @include fxc;
+      align-items:flex-start;
       float: left;
       width: 100%;
       .live__video__intro__container{
@@ -1903,12 +1902,11 @@ body{
       }
    }
 
-
-
-
 }
 
-
+.robot_check_block {
+   margin: 10px 0;
+}
 
 ul{
    list-style-type: none;
