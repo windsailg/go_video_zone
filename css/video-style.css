@@ -315,7 +315,7 @@ body {
   -webkit-justify-content: flex-start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  width: 400px;
+  width: 510px;
   float: left;
   padding: 0 15px;
   position: relative;
@@ -352,7 +352,7 @@ body {
   float: left;
   width: 100%;
   height: 110px;
-  max-width: calc(100% - 420px);
+  max-width: calc(100% - 520px);
 }
 
 @media all and (max-width: 860px) {
@@ -448,7 +448,7 @@ body {
           justify-content: flex-start;
   float: left;
   width: 100%;
-  max-width: 360px;
+  max-width: 530px;
   padding: 10px 0 18px;
   -webkit-flex-wrap: nowrap;
       -ms-flex-wrap: nowrap;
@@ -935,6 +935,15 @@ body {
   font-size: 1.2em;
 }
 
+@media all and (max-width: 781px) {
+  #videoZone .sorter__block {
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+}
+
 #videoZone .sorter__block .sorter__title {
   letter-spacing: 2px;
 }
@@ -1017,7 +1026,7 @@ body {
           align-items: flex-start;
   width: auto;
   width: 100%;
-  max-width: 1280px;
+  max-width: 1200px;
 }
 
 #videoZone .imagine__block .imagine__box {
@@ -1072,13 +1081,21 @@ body {
   }
 }
 
+#videoZone .imagine__block .imagine__box .imagine img {
+  width: 100%;
+}
+
 #videoZone .imagine__block .imagine__box .block__title {
   -webkit-box-pack: start;
   -webkit-justify-content: flex-start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   width: 100%;
-  font-size: 1.2em;
+  font-size: 1.1em;
   font-weight: bold;
   margin: 10px 0 0 0;
   height: 48px;
@@ -1094,6 +1111,7 @@ body {
 @media all and (max-width: 861px) {
   #videoZone .imagine__block .imagine__box .block__title {
     font-size: .9em;
+    height: 42px;
   }
 }
 
@@ -1438,7 +1456,14 @@ body {
   text-align: left;
 }
 
+#videoZone .program__block .program__table th:first-child {
+  width: 60%;
+}
+
 @media all and (max-width: 980px) {
+  #videoZone .program__block .program__table th:first-child {
+    width: auto;
+  }
   #videoZone .program__block .program__table th:nth-child(2) {
     white-space: nowrap;
   }
@@ -1816,6 +1841,9 @@ body {
 }
 
 @media all and (max-width: 1101px) {
+  #videoZone .top__intro__block .intro__video__list__item {
+    height: unset;
+  }
   #videoZone .top__intro__block .intro__video__list__item:not(:last-child) {
     margin: 0 8px 0 0;
   }
@@ -2635,8 +2663,17 @@ body {
       -ms-flex-align: start;
           align-items: flex-start;
   width: 100%;
-  max-width: 1280px;
+  max-width: 1200px;
   margin: 20px 0 10px;
+}
+
+@media all and (max-width: 840px) {
+  #videoZone .live__imagine__block {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 #videoZone .live__imagine__block .live__imagine__box {
@@ -2691,7 +2728,7 @@ body {
   display: -webkit-box;
   /* 設定 display 為 -webkit-box 元素。 */
   overflow: hidden;
-  height: 54px;
+  max-height: 54px;
 }
 
 @media all and (max-width: 861px) {
