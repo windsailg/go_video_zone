@@ -118,48 +118,8 @@ $(document).ready(function(){
 	});
 
 
-	//Graduate Detail Tab Swiper
-	var GraduateDetailTabListSwiper = new Swiper('#GraduateDetailTabListSwiper', {
-		slidesPerView: 'auto',
-		speed:400,
-		grabCursor : true,
-		allowTouchMove: true,
-		breakpoints: { 
-			601: {
-				initialSlide :1,
-				centeredSlides :true,
-			},
-		},
-	});
 
-	var tabBoxAction = {
 
-		TabSwitcher: function (tabEl){
-			$('.tab_box li').removeClass('active');
-			$(tabEl).addClass('active');
-			var triggerId ='#' +  $(tabEl).attr('data-cid');
-			$('.course_information').hide(300);
-			$(triggerId).show(400);
-		},
-
-		CourseNext: function (){
-			var tabActiveThis = $('.tab_item.active');
-			var tabActiveNext = $('.tab_item.active').next();
-			tabActiveNext.addClass('active');
-			
-			if(tabActiveNext.length == 0){
-				$('.tab_box li:first').addClass('active');
-			}
-			tabActiveThis.removeClass('active');
-			var tabActiveThisNew = $('.tab_item.active');
-			var triggerId ='#' +  $(tabActiveThisNew).attr('data-cid');
-			$('.course_information').hide(300);
-			$(triggerId).show(400);
-		},
-
-	}
-
-	//文章斷點
 
 
 

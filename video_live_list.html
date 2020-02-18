@@ -66,28 +66,32 @@
 
           <div class="subject_block">
 
-            <div id="SubjectListMajor" class="subject_container">
-              <div class="swiper-wrapper">
+          <div id="SubjectListMajor" class="subject_container">
+            <div class="swiper-wrapper">
 
-                <div href="#" id="SubjectNavTrigger" class="item subject_item openable swiper-slide">
-                  <i class="fas fa-film"></i>
-                  <span class="name">影片</span>
-                </div>
+              <a href="#" class="item subject_item swiper-slide">
+                <i class="far fa-play-circle"></i>
+                <span class="name">影音專區</span>
+              </a>
 
-                <a href="https://www.tkbgo.com.tw/article/teacher/toArticle.jsp?article_id=575"
-                  class="item subject_item swiper-slide">
-                  <i class="far fa-calendar-alt"></i>
-                  <span class="name">節目表</span>
-                </a>
-
-                <a href="https://www.tkbgo.com.tw/article/teacher/toArticle.jsp?article_id=575"
-                  class="item subject_item thispage swiper-slide">
-                  <i class="fas fa-video"></i>
-                  <span class="name">直播<span class="deco"></span></span>
-                </a>
-
+              <div href="#" id="SubjectNavTrigger" class="item subject_item openable swiper-slide">
+                <i class="fas fa-film"></i>
+                <span class="name">影片</span>
               </div>
+
+              <a href="#" class="item thispage subject_item swiper-slide">
+                <i class="far fa-list-alt"></i>
+                <span class="name">節目表</span>
+              </a>
+
+              <a href="#" class="item subject_item swiper-slide">
+                <i class="fas fa-video"></i>
+                <span class="name">直播<span class="deco"></span></span>
+              </a>
+
             </div>
+          </div>
+
 
             <!-- <div  id="SubjectListMinor" class="subject_conainer type_fixed">
             <div class="swiper-wrapper">
@@ -722,8 +726,10 @@
 
   //   });
 
+
         $('.live_content__item').hide(0);
         $('#ThemeSeriesBlock').fadeIn(400);
+
         $('#ThemeSeries').on('click',function(){
           LiveInfoTabTrigger();
           $(this).addClass('live__tab__item--active');
