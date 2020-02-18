@@ -1457,13 +1457,10 @@ body {
 }
 
 #videoZone .program__block .program__table th:first-child {
-  width: 60%;
+  width: 65%;
 }
 
 @media all and (max-width: 980px) {
-  #videoZone .program__block .program__table th:first-child {
-    width: auto;
-  }
   #videoZone .program__block .program__table th:nth-child(2) {
     white-space: nowrap;
   }
@@ -2458,7 +2455,7 @@ body {
   -webkit-justify-content: flex-start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  padding: 10px 20px;
+  padding: 9px 20px;
   -webkit-box-align: start;
   -webkit-align-items: flex-start;
       -ms-flex-align: start;

@@ -922,11 +922,11 @@ body{
             color: #666666;
             text-align: left;
             &:first-child{
-               width: 60%;
+               width: 65%;
             }
-            @include MCW(980px) {
+            @include MCW(980px){
                &:first-child {
-                  width: auto;
+                  // width: auto;
                }
                &:nth-child(2){
                   white-space: nowrap;
@@ -1570,7 +1570,7 @@ body{
       }
       .intro__form__checker{
          @include fxfs;
-         padding: 10px 20px;
+         padding: 9px 20px;
          align-items: flex-start;
          width: 100%;
          @include MCW(1301px) {
