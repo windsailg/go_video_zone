@@ -1683,7 +1683,7 @@ body {
 
 @media all and (max-width: 1301px) {
   #videoZone .top__intro__block .intro__list {
-    display: none;
+    max-width: unset;
   }
 }
 
@@ -1702,6 +1702,12 @@ body {
   border-color: #999999;
   padding: 0  15px 15px;
   margin: 0 0 10px 0;
+}
+
+@media all and (max-width: 1301px) {
+  #videoZone .top__intro__block .intro__list__title {
+    display: none;
+  }
 }
 
 #videoZone .top__intro__block .intro__list__item {
@@ -1729,9 +1735,34 @@ body {
           transition-duration: .1s;
 }
 
+@media all and (max-width: 1301px) {
+  #videoZone .top__intro__block .intro__list__item {
+    max-width: 130px;
+  }
+}
+
+@media all and (max-width: 861px) {
+  #videoZone .top__intro__block .intro__list__item {
+    max-width: 16%;
+  }
+}
+
+@media all and (max-width: 561px) {
+  #videoZone .top__intro__block .intro__list__item {
+    max-width: 33%;
+    padding: 4px 0;
+  }
+}
+
 #videoZone .top__intro__block .intro__list__item__imagine {
   width: 100%;
   max-width: 60px;
+}
+
+@media all and (max-width: 1301px) {
+  #videoZone .top__intro__block .intro__list__item__imagine {
+    max-width: 30px;
+  }
 }
 
 #videoZone .top__intro__block .intro__list__item__name {
@@ -1739,6 +1770,12 @@ body {
   max-width: 40px;
   font-size: 1.2em;
   padding: 0 0 0 10px;
+}
+
+@media all and (max-width: 1301px) {
+  #videoZone .top__intro__block .intro__list__item__name {
+    font-size: .9em;
+  }
 }
 
 #videoZone .top__intro__block .intro__videos {
@@ -2725,7 +2762,7 @@ body {
   display: -webkit-box;
   /* 設定 display 為 -webkit-box 元素。 */
   overflow: hidden;
-  max-height: 54px;
+  height: 54px;
 }
 
 @media all and (max-width: 861px) {

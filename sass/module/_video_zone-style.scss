@@ -1067,7 +1067,8 @@ body{
          width: 100%;
          max-width: 180px;
          @include MCW(1301px) {
-            display: none;
+            // display: none;
+            max-width: unset;
          }
       }
       .intro__list__title {
@@ -1082,6 +1083,9 @@ body{
          border-color: #999999;
          padding: 0  15px 15px;
          margin: 0 0 10px 0;
+         @include MCW(1301px) {
+            display: none;
+         }
       }
       .intro__list__item{
          @include fxc;
@@ -1090,16 +1094,33 @@ body{
          padding: 8px 0;
          @include hover;
          user-select: none;
+         @include MCW(1301px) {
+            max-width: 130px;
+         }
+         @include MCW(861px) {
+            max-width: 16%;
+         }
+         @include MCW(561px) {
+            max-width: 33%;
+            padding: 4px 0;
+         }
+
       }
       .intro__list__item__imagine{
          width: 100%;
          max-width: 60px;
+         @include MCW(1301px) {
+            max-width: 30px;
+         }
       }
       .intro__list__item__name{
          width: 100%;
          max-width: 40px;
          font-size: 1.2em;
          padding:  0 0 0 10px;
+         @include MCW(1301px) {
+            font-size: .9em;
+         }
       }
 
       //各種影片區塊
@@ -1739,7 +1760,7 @@ body{
             font-weight: bold;
             margin: 10px 0 0 0;
             @include multi_nowrap(2);
-            max-height: 54px;
+            height: 54px;
             @include MCW(861px) {
                font-size: .9em;
             }
