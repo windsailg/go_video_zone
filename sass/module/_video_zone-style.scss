@@ -1133,6 +1133,7 @@ body{
          @include MCW(1301px) {
             max-width: 100%;
             justify-content: center;
+            padding: 0;
          }
          @include MCW(1101px) {
             height: unset;
@@ -1443,6 +1444,7 @@ body{
          @include MCW(1301px) {
             max-width: 100%;
             justify-content: center;
+            padding: 0;
          }
 
          @include MCW(1101px) {
@@ -1869,7 +1871,7 @@ body{
       }
       .live__tab__item{
          @include fxc;
-         box-shadow: border-box;;
+         box-sizing: border-box;;
          width: 100%;
          max-width: 100px;
          padding: 10px;
@@ -1883,7 +1885,7 @@ body{
          border-style: solid;
          border-color: transparent;
          @include MCW(1301px) {
-            max-width: 40%;
+            max-width: 42%;
          }
          &.live__tab__item--active{
             font-weight: bold;

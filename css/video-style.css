@@ -1797,6 +1797,7 @@ body {
     -webkit-justify-content: center;
         -ms-flex-pack: center;
             justify-content: center;
+    padding: 0;
   }
 }
 
@@ -2266,6 +2267,7 @@ body {
     -webkit-justify-content: center;
         -ms-flex-pack: center;
             justify-content: center;
+    padding: 0;
   }
 }
 
@@ -2920,8 +2922,8 @@ body {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-shadow: border-box;
-          box-shadow: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: 100%;
   max-width: 100px;
   padding: 10px;
@@ -2951,7 +2953,7 @@ body {
 
 @media all and (max-width: 1301px) {
   #videoZone .live__tab__block .live__tab__item {
-    max-width: 40%;
+    max-width: 42%;
   }
 }
 
