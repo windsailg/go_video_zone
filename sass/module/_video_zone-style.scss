@@ -694,7 +694,7 @@ body{
             background-position: center;
             background-size: 30%;
             background-repeat: no-repeat;
-            background-image: url(../../img/video_zone_img/loading_ring.svg);
+            background-image: url('../../img/video_zone_img/loading_ring.svg');
             @include MCW(861px){
                height: unset;
                max-height: unset;
@@ -792,7 +792,7 @@ body{
          background-position: center;
          background-size: 30%;
          background-repeat: no-repeat;
-         background-image: url(../../img/video_zone_img/loading_ring.svg);
+         background-image: url('../../img/video_zone_img/loading_ring.svg');
          @include hover;
          @include MCW(861px) {
             height: unset;
@@ -1748,7 +1748,7 @@ body{
             background-position: center;
             background-size: 30%;
             background-repeat: no-repeat;
-            background-image: url(../../img/video_zone_img/loading_ring.svg);
+            background-image: url('../../img/video_zone_img/loading_ring.svg');
 
             @include MCW(861px) {
                height: unset;
@@ -1967,7 +1967,7 @@ ul{
 .lazy{
    @include bg-loading;
    background-color: #fff;
-   background-image: url("../img/video_zone_img/loading_ring.svg");
+   background-image: url('../../img/video_zone_img/loading_ring.svg');
    min-height: 100%;
 }
 
@@ -1975,6 +1975,7 @@ ul{
    max-height: unset;
    background-image: unset;
 }
+
 
 img{
    display: block;
